@@ -36,17 +36,17 @@
 
     .row.justify-content-center(data-aos="fade-right")
       .col-lg-4.col-12.d-flex
-        .px-lg-5.py-lg-5.px-3.mb-lg-0.mb-3.w-100.tarjeta1(style="background-color:#ffe5cf; border-radius:15px")
+        .px-lg-5.py-lg-5.px-3.p-3.mb-lg-0.mb-3.w-100.tarjeta1(style="background-color:#ffe5cf; border-radius:15px")
           img.mb-4(style="width: 80px" src="@/assets/curso/tema10/img03.svg")
           h4.mb-4 Prueba de la caja negra
           p.mb-0 La caja negra es cuando el ethical hacker no tiene información sobre el objetivo o la red. Esta prueba es la mejor para simular un ataque externo e ignora las amenazas internas.
       .col-lg-4.col-12.d-flex
-        .px-lg-5.py-lg-5.px-3.mb-lg-0.mb-3.w-100.tarjeta1(style="background-color:#ffe5cf; border-radius:15px")
+        .px-lg-5.py-lg-5.px-3.p-3.mb-lg-0.mb-3.w-100.tarjeta1(style="background-color:#ffe5cf; border-radius:15px")
           img.mb-4(style="width: 80px" src="@/assets/curso/tema10/img04.svg")
           h4.mb-4 Prueba de la caja blanca
           p.mb-0 La prueba de caja blanca es lo opuesto a una caja negra. El ethical hacker  tiene pleno conocimiento de la red, los sistemas informáticos y la infraestructura. La prueba de la caja blanca permite una prueba exhaustiva del entorno.
       .col-lg-4.col-12.d-flex
-        .px-lg-5.py-lg-5.px-3.mb-0.w-100.tarjeta1(style="background-color:#ffe5cf; border-radius:15px")
+        .px-lg-5.py-lg-5.px-3.p-3.mb-0.w-100.tarjeta1(style="background-color:#ffe5cf; border-radius:15px")
           img.mb-4(style="width: 80px" src="@/assets/curso/tema10/img05.svg")
           h4.mb-4 Prueba de la caja gris
           p.mb-0 La prueba de caja gris, simula una amenaza interna. El ethical hacker recibe información parcial sobre la red y los sistemas informáticos, como configuraciones de IP, listas de correo electrónico, nombres de computadora u otra información que una persona con datos privilegiados tendría de manera realista.

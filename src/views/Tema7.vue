@@ -19,15 +19,15 @@
           
 
     .row.justify-content-center(data-aos="fade-left") 
-      .col-lg-4.col-12.d-flex
-        .tarjeta-avatar.mb-lg-0.mb-3
+      .col-lg-4.col-12.d-flex.mb-lg-0.mb-3
+        .tarjeta-avatar.mb-0
           img(src="@/assets/curso/tema7/img02.svg")       
           .tarjeta.color-secundario(style="background: #ffe5cf")
             .p-4.py-5
               h4.text-center Baja
               p.mb-0.text-center Se considera baja cuando la clasificación de la información en todas sus propiedades es baja. 
-      .col-lg-4.col-12.d-flex
-        .tarjeta-avatar.mb-lg-0.mb-3
+      .col-lg-4.col-12.d-flex.mb-lg-0.mb-3
+        .tarjeta-avatar.mb-0
           img(src="@/assets/curso/tema7/img03.svg")       
           .tarjeta.color-secundario(style="background: #ffb476")
             .p-4.py-5
@@ -54,6 +54,8 @@
                 br
                 br
                 p.mb-lg-0.mb-3 Estas son las características más representativas, y a tener en cuenta, de los activos de información:
+                .d-block.d-lg-none
+                  br
               .col-lg-2.col-8.px-5
                 img.mb-0(src="@/assets/curso/tema7/img05.svg")
 
@@ -137,7 +139,7 @@
 
     .row.justify-content-center(data-aos="fade-left")
       .col-lg-3.col-12.d-flex
-        .px-lg-4.py-lg-5.px-3.mb-lg-0.mb-3.w-100.tarjeta1(style="background-color:#ffe5cf; border-radius:15px")
+        .px-lg-4.py-lg-5.px-3.mb-lg-0.mb-3.w-100.tarjeta1.p-3(style="background-color:#ffe5cf; border-radius:15px")
           img.mb-5(style="width: 75px" src="@/assets/curso/tema7/img13.svg")
           h4.mb-4 Subestado confidencialidad
           ul.lista-ul--color.mb-0
@@ -154,7 +156,7 @@
               i.fas.fa-check(style="color:#083142")
               p.mb-0 Crítica
       .col-lg-3.col-12.d-flex
-        .px-lg-4.py-lg-5.px-3.mb-lg-0.mb-3.w-100.tarjeta1(style="background-color:#ffe5cf; border-radius:15px")
+        .px-lg-4.py-lg-5.px-3.mb-lg-0.mb-3.w-100.tarjeta1.p-3(style="background-color:#ffe5cf; border-radius:15px")
           img.mb-5(style="width: 75px" src="@/assets/curso/tema7/img14.svg")
           h4.mb-4 Subestado integridad
           ul.lista-ul--color.mb-0
@@ -171,7 +173,7 @@
               i.fas.fa-check(style="color:#083142")
               p.mb-0 Confidencial
       .col-lg-3.col-12.d-flex
-        .px-lg-4.py-lg-5.px-3.mb-lg-0.mb-3.w-100.tarjeta1(style="background-color:#ffe5cf; border-radius:15px")
+        .px-lg-4.py-lg-5.px-3.mb-lg-0.mb-3.w-100.tarjeta1.p-3(style="background-color:#ffe5cf; border-radius:15px")
           img.mb-5(style="width: 75px" src="@/assets/curso/tema7/img15.svg")
           h4.mb-4 Subestado disponibilidad
           ul.lista-ul--color.mb-0
@@ -188,7 +190,7 @@
               i.fas.fa-check(style="color:#083142")
               p.mb-0 Crítica
       .col-lg-3.col-12.d-flex
-        .px-lg-4.py-lg-5.px-3.w-100.tarjeta1(style="background-color:#ffe5cf; border-radius:15px")
+        .px-lg-4.py-lg-5.px-3.w-100.tarjeta1.p-3(style="background-color:#ffe5cf; border-radius:15px")
           img.mb-5(style="width: 75px" src="@/assets/curso/tema7/img16.svg")
           h4.mb-4 Subestado autentificación
           ul.lista-ul--color.mb-0

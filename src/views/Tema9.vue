@@ -125,6 +125,8 @@
           .row.justify-content-center.align-items-center.d-flex
               .col-lg-10.col-12
                 p.mb-lg-0.mb-3 La existencia de vulnerabilidades y posibles fallas en los sistemas informáticos, facilitan que la información pueda ser empleada maliciosamente para conseguir ventajas de ella o que sea manipulada para afectar la infraestructura tecnológica, física y del entorno.<br><br>Le mostraremos, a continuación, aspectos importantes sobre los riesgos, su impacto y probabilidad, su análisis y tratamiento. Además, algunos conceptos nuevos que le afianzarán en su saber sobre ciberseguridad.
+                .d-block.d-lg-none
+                  br
               .col-lg-2.col-8.px-5
                 img.mb-0(src="@/assets/curso/tema9/img15.svg")
 
@@ -155,7 +157,7 @@
                   a.anexo.mb-0.mb-lg-0(href="https://www.iso.org/obp/ui#iso:std:iso:31000:ed-2:v1:es" target="_blank")
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
-                    .anexo__texto
+                    .anexo__texto.text-wrap.text-break
                       p <b>Enlace web</b>. https://www.iso.org/obp/ui#iso:std:iso:31000:ed-2:v1:es
 
   
@@ -220,15 +222,15 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-4.col-12.d-flex
-        .p-0.w-100.d-flex.justify-content-center.align-items-center.mb-lg-0.mb-3(style=" background:#fff3ea")
+        .p-0.w-100.d-flex.justify-content-start.align-items-center.mb-lg-0.mb-3(style=" background:#fff3ea")
           img.mb-0(style="width:91px;" src="@/assets/curso/tema9/img24.svg")
           p.p-3.mb-0 Un funcionamiento correcto de la organización
       .col-lg-4.col-12.d-flex
-        .p-0.w-100.d-flex.justify-content-center.align-items-center.mb-lg-0.mb-3(style=" background:#fff3ea")
+        .p-0.w-100.d-flex.justify-content-start.align-items-center.mb-lg-0.mb-3(style=" background:#fff3ea")
           img.mb-0(style="width:91px;" src="@/assets/curso/tema9/img25.svg")
           p.p-3.mb-0 Revisiones internas efectivas.
       .col-lg-4.col-12.d-flex
-        .p-0.w-100.d-flex.justify-content-center.align-items-center.mb-0(style=" background:#fff3ea")
+        .p-0.w-100.d-flex.justify-content-start.align-items-center.mb-0(style=" background:#fff3ea")
           img.mb-0(style="width:91px;" src="@/assets/curso/tema9/img26.svg")
           p.p-3.mb-0 Controles legales actualizados con las leyes y reglamentos vigentes.
 

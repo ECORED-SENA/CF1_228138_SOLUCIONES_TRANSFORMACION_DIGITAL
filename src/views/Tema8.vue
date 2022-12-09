@@ -13,6 +13,8 @@
           .row.justify-content-center.align-items-center.d-flex
               .col-lg-10.col-12                
                 p.mb-lg-0.mb-3 Las vulnerabilidades y amenazas informáticas se relacionan con los riesgos que se pueden generar para los sistemas y la información de una organización. Este fenómeno es cada vez más frecuente ya que, en la actualidad, existe una alta dependencia digital y de los servicios TI.<br><br>En el siguiente recurso, le presentamos algunas definiciones claves que favorecen la asimilación y conceptualización en lo referente a amenazas y vulnerabilidades informáticas.
+                .d-block.d-lg-none
+                  br
               .col-lg-2.col-8.px-5
                 img.mb-0(src="@/assets/curso/tema8/img01.svg")
 
@@ -129,8 +131,8 @@
     .row.justify-content-center(data-aos="fade-right")
       .col-lg-10.col-12  
         .cajon.color-secundario.p-4.mb-4
-          .p-0.d-flex.align-items-center
-            img.mb-0.mx-3(style="width:74px" src="@/assets/curso/tema8/img09.svg")
+          .p-0.d-lg-flex.d-block.align-items-center
+            img.mb-3.mx-3(style="width:74px" src="@/assets/curso/tema8/img09.svg")            
             p.mb-0.mx-3 Esta situación de sobredemanda en solicitudes al servidor es la razón por la cual se presenta un colapso del sistema, provocando que el servidor se abata o que alcance un funcionamiento incorrecto, por ejemplo, acceso lento o rebote de mensajes de errores. 
     Separador
     #t_8_4.titulo-segundo.color-acento-contenido

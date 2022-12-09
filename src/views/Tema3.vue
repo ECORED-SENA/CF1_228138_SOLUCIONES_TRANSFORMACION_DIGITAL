@@ -17,7 +17,7 @@
             p.mb-0 De la misma manera que en los procesos de seguridad de la información y ciberseguridad, es importante en la gestión de riesgos de la seguridad de la información, utilizar los lineamientos de las siguientes normas y estándares:
 
 
-    .tarjeta.tarjeta--azul.p-0.py-lg-5.mb-0(style="background-color:#fff3ea" data-aos="fade-left")
+    .tarjeta.tarjeta--azul.p-3.py-lg-5.mb-0(style="background-color:#fff3ea" data-aos="fade-left")
       SlyderA
         .row.justify-content-center
           .col-lg-5.col-12
