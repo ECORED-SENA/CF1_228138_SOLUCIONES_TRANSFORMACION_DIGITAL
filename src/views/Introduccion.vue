@@ -3,12 +3,24 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
   
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-botones
       .titulo-principal__numero
         span
           i.fas.fa-info
       h1 Introducción
+
+    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
+      .col-lg-5.col-8
+        img.mb-lg-0.mb-3(src="@/assets/curso/tema1/img01.png")
+      .col-lg-7.col-12
+        p En este componente se abordarán los conceptos y fundamentos de las tecnologías de información y la seguridad de la información, reconociendo la normatividad, marcos y estándares para una adecuada gestión de riesgos de ciberseguridad y la tipificación de delitos informáticos en el contexto colombiano. 
+        .cajon.color-secundario.p-4.mb-4
+          p.mb-0 Por lo anterior, a través del siguiente video se presentan las temáticas que se abordarán en el componente formativo, destacando la importancia en los entornos empresariales, de esta manera se invita al aprendiz a disponerse para el proceso de aprendizaje:
     
+
+    figure(data-aos="fade-right")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 </template>
 
 <script>
