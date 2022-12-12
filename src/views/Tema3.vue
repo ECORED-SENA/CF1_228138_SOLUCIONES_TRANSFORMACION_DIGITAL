@@ -24,8 +24,8 @@
             br
             br
             p Es importante para la gestión de riesgos utilizar los lineamientos de las siguientes normas y estándares:
-            p <b>ISO 31000: Gestión del riesgo</b>. Directrices: esta normativa establece principios y guías para diseñar, implementar y mantener la gestión de los riesgos en forma sistemática y de transparencia de toda forma de riesgo, por ejemplo: financiera, operativa, de mercadeo, de imagen, y de seguridad de información.
-            p.mb-lg-0.mb-3 <b>ISO/IEC 27005. Gestión de riesgos de la Seguridad la Información</b>. Esta norma se encuentra estructurada con 14 numerales de control de seguridad de la información que en su conjunto contiene más de 35 de categorías de seguridad principal y 114 controles.
+            p <b><em>ISO</em> 31000: Gestión del riesgo</b>. Directrices: esta normativa establece principios y guías para diseñar, implementar y mantener la gestión de los riesgos en forma sistemática y de transparencia de toda forma de riesgo, por ejemplo: financiera, operativa, de mercadeo, de imagen, y de seguridad de información.
+            p.mb-lg-0.mb-3 <b><em>ISO</em>/IEC 27005. Gestión de riesgos de la Seguridad la Información</b>. Esta norma se encuentra estructurada con 14 numerales de control de seguridad de la información que en su conjunto contiene más de 35 de categorías de seguridad principal y 114 controles.
           .col-lg-5.col-8
             img.mb-0(src="@/assets/curso/tema3/img02.png")
         .row.justify-content-center
@@ -65,7 +65,7 @@
                 p.mb-0 <b>Identificar</b> los niveles de riesgo de ciberseguridad en la organización.
               li.mb-0
                 i.fas.fa-check(style="color:#083142")
-                p.mb-0 <b>Hacer un plan de tratamiento</b> para la gestión de los riesgos que permita la disminución de los riesgos, facilitando lineamientos para gestionar los riesgos, apoyándose con las directrices de la ISO 27001 y 27002.
+                p.mb-0 <b>Hacer un plan de tratamiento</b> para la gestión de los riesgos que permita la disminución de los riesgos, facilitando lineamientos para gestionar los riesgos, apoyándose con las directrices de la <em>ISO</em> 27001 y 27002.
           .col-lg-5.col-8
             img.mb-0(src="@/assets/curso/tema3/img04.png")
         .row.justify-content-center
@@ -109,10 +109,10 @@
             ul.lista-ul--color.mb-lg-0.mb-3
               li.mb-0
                 i.fas.fa-check(style="color:#083142")
-                p.mb-0 <b>ISO/IEC 27005</b>: seguridad de la información, ciberseguridad y protección de la privacidad.
+                p.mb-0 <b><em>ISO</em>/IEC 27005</b>: seguridad de la información, ciberseguridad y protección de la privacidad.
               li.mb-0
                 i.fas.fa-check(style="color:#083142")
-                p.mb-0 <b>ISO 31000:2018</b>. Gestión del riesgo. Directrices.
+                p.mb-0 <b><em>ISO</em> 31000:2018</b>. Gestión del riesgo. Directrices.
               
               
           .col-lg-5.col-8

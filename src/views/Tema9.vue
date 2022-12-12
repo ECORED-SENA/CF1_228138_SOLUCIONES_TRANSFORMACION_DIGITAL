@@ -20,44 +20,44 @@
     .row.justify-content-center.align-items-center(data-aos="fade-right")
       .col-lg-10.col-12
         AcordionA.mb-0(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
-          div(titulo="Malware")
+          div(titulo="<em>Malware</em>")
             .row.justify-content-center.align-items-center
               .col-lg-1.col-8
                 img.mb-lg-0.mb-3(style="width:80px" src="@/assets/curso/tema9/img02.svg")
               .col-lg-10.col-8
                 p.mb-0 Se refiere a todos aquellos archivos que contaminan y pueden comprometer tanto la seguridad, como la utilidad y preservación del equipo.      
 
-          div(titulo="Phishing o usurpación de identidad")
+          div(titulo="<em>Phishing </em>o usurpación de identidad")
             .row.justify-content-center.align-items-center
               .col-lg-1.col-8
                 img.mb-lg-0.mb-3(style="width:80px" src="@/assets/curso/tema9/img03.svg")
               .col-lg-10.col-8
                 p.mb-0 Se hacen una serie de actos fraudulentos, ya sea a través de correos o mensajes de entidades reconocidas para generar confianza. 
-          div(titulo="Criptomining")
+          div(titulo="<em>Criptomining</em>")
             .row.justify-content-center.align-items-center
               .col-lg-1.col-8
                 img.mb-lg-0.mb-3(style="width:80px" src="@/assets/curso/tema9/img04.svg")
               .col-lg-10.col-8
                 p.mb-0 Es un delito en el cual se dirigen ataques a las cuentas, sea un usuario o empresa.
-          div(titulo="Ataques DDoS")
+          div(titulo="Ataques <em>DDoS</em>")
             .row.justify-content-center.align-items-center
               .col-lg-1.col-8
                 img.mb-lg-0.mb-3(style="width:80px" src="@/assets/curso/tema9/img05.svg")
               .col-lg-10.col-8
-                p.mb-0 El término de DDoS se debe a su nombre en inglés (Distributed Denial of Service) la cual tiene el objetivo de ejecutar un ataque de denegación de servicio distribuido.
-          div(titulo="Ransomware")
+                p.mb-0 El término de <em>DDoS</em> se debe a su nombre en inglés (Distributed Denial of Service) la cual tiene el objetivo de ejecutar un ataque de denegación de servicio distribuido.
+          div(titulo="<em>Ransomware</em>")
             .row.justify-content-center.align-items-center
               .col-lg-1.col-8
                 img.mb-lg-0.mb-3(style="width:80px" src="@/assets/curso/tema9/img06.svg")
               .col-lg-10.col-8
                 p.mb-0 Consiste en un sistema malicioso el cual restringe o prohíbe el acceso a los datos confidenciales.
-          div(titulo="Botnets")
+          div(titulo="<em>Botnets</em>")
             .row.justify-content-center.align-items-center
               .col-lg-1.col-8
                 img.mb-lg-0.mb-3(style="width:80px" src="@/assets/curso/tema9/img07.svg")
               .col-lg-10.col-8
-                p.mb-0 Se trata de una amenaza para los ordenadores actuando a través de troyanos que se filtran en el mismo para así enviar información como spam. 
-          div(titulo="Inyección SQL")
+                p.mb-0 Se trata de una amenaza para los ordenadores actuando a través de troyanos que se filtran en el mismo para así enviar información como <em>spam</em>. 
+          div(titulo="Inyección <em>SQL</em>")
             .row.justify-content-center.align-items-center
               .col-lg-1.col-8
                 img.mb-lg-0.mb-3(style="width:80px" src="@/assets/curso/tema9/img08.svg")
@@ -89,7 +89,7 @@
               .px-lg-3.py-lg-4.p-3.mb-lg-0.mb-3(style="background-color: #ffc8bf; border-radius:10px")
                 img.mb-3(src="@/assets/curso/tema9/img11.png")
                 h4.mb-4 Nivel medio
-                p.mb-0 Se incrementan las capacidades ofensivas siendo ésta, la principal amenaza de este nivel. Además de la desfiguración de páginas web y la manipulación de información. 
+                p.mb-0 Se incrementan las capacidades ofensivas siendo ésta, la principal amenaza de este nivel. Además de la desfiguración de páginas <em><em>web</em> </em>y la manipulación de información. 
             .col-lg-4.col-12.d-flex
               .px-lg-3.py-lg-4.p-3(style="background-color: #ffe5cf; border-radius:10px")
                 img.mb-3(src="@/assets/curso/tema9/img12.png")
@@ -113,7 +113,7 @@
               .px-lg-3.py-lg-4.p-3.mb-lg-0.mb-3(style="background-color: #ffe5cf; border-radius:10px")
                 img.mb-3(src="@/assets/curso/tema9/img14.png")
                 h4.mb-4 Nivel crítico
-                p.mb-0 Se habla del ciberespionaje como la gran amenaza de este nivel. El ataque proviene de APTs, campañas de malware, interrupción de servicios, compromiso de sistemas de control industrial, incidentes especiales, etc. 
+                p.mb-0 Se habla del ciberespionaje como la gran amenaza de este nivel. El ataque proviene de <em>APTs</em>, campañas de <em>malware</em>, interrupción de servicios, compromiso de sistemas de control industrial, incidentes especiales, etc. 
 
     Separador
     #t_9_2.titulo-segundo.color-acento-contenido
@@ -151,14 +151,14 @@
             .col-lg-1.col-8
               img.mb-lg-0.mb-3(src="@/assets/curso/tema9/img17.svg")
             .col-lg-11.col-12
-              p Para estudiar a profundidad las técnicas de tratamiento de riesgos y afianzarse en la adopción de controles de seguridad, se recomienda hacer búsqueda de la norma ISO / IEC 27005 y la norma ISO 31000:2018
+              p Para estudiar a profundidad las técnicas de tratamiento de riesgos y afianzarse en la adopción de controles de seguridad, se recomienda hacer búsqueda de la norma <em>ISO</em> / IEC 27005 y la norma <em>ISO</em> 31000:2018
               .row.p-0
                 .col-lg-8.col-12.p-0
                   a.anexo.mb-0.mb-lg-0(href="https://www.iso.org/obp/ui#iso:std:iso:31000:ed-2:v1:es" target="_blank")
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto.text-wrap.text-break
-                      p <b>Enlace web</b>. https://www.iso.org/obp/ui#iso:std:iso:31000:ed-2:v1:es
+                      p <b>Enlace <em>web</em></b>. https://www.iso.org/obp/ui#iso:std:iso:31000:ed-2:v1:es
 
   
 

@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-botones
       .titulo-principal__numero
         span 1
-      h1 Fundamentos de redes y networking
+      h1 Fundamentos de redes y <i>networking</i>
 
     .bloque1.p-0
       .bloque-texto-b.color-secundario.p-4.mb-0(data-aos="fade-left")
@@ -21,7 +21,7 @@
     #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1 Conceptos
 
-    p Una red de computadoras es un conjunto de ordenadores y otros dispositivos que se conectan entre sí, tanto de manera alámbrica, es decir por cables, o inalámbricas o sea wifi, para intercambiar información y compartir recursos.
+    p Una red de computadoras es un conjunto de ordenadores y otros dispositivos que se conectan entre sí, tanto de manera alámbrica, es decir por cables, o inalámbricas o sea <i>wifi</i>, para intercambiar información y compartir recursos.
     .row.justify-content-center.align-items-center(data-aos="fade-right")
       .col-lg-4.col-12
         .TFcontainer.mb-lg-0.mb-3.p-0
@@ -39,7 +39,7 @@
             .px-3.w-100
               div.w-100
                 h4.text-center.w-100.p-2(style="background-color: white; border-radius: 19px") Conexión unificada
-              p.mb-0.text-center.contenidooculto También da la posibilidad de adecuar una única conexión a internet en varios ordenadores.
+              p.mb-0.text-center.contenidooculto También da la posibilidad de adecuar una única conexión a <em><em>internet</em> </em>en varios ordenadores.
       .col-lg-4.col-12
         .TFcontainer.mb-lg-0.mb-3.p-0
           img.TFimage(src='@/assets/curso/tema1/img05.svg')
@@ -47,7 +47,7 @@
             .px-3.w-100
               div.w-100
                 h4.text-center.w-100.p-2(style="background-color: white; border-radius: 19px") Intercambio de información y dispositivos
-              p.mb-0.text-center.contenidooculto La red informática tiene la habilidad de compartir impresora y otros periféricos, además de enviar y recibir mensajes y pasar archivos a otros ordenadores sin necesitar de un cd, memoria USB u otro elemento.
+              p.mb-0.text-center.contenidooculto La red informática tiene la habilidad de compartir impresora y otros periféricos, además de enviar y recibir mensajes y pasar archivos a otros ordenadores sin necesitar de un cd, memoria <i>USB</i> u otro elemento.
 
     Separador
     #t_1_2.titulo-segundo.color-acento-contenido
@@ -60,7 +60,7 @@
             .col-lg-2.col-8.px-5
                 img.mb-lg-0.mb-3(src="@/assets/curso/tema1/img06.svg")
             .col-lg-10.col-12
-                p <b>En este punto, las características hacen referencia a los elementos que componen una red: host, switch, router, servidor, firewall, etc.</b> <br><br>En el siguiente recurso, le presentamos las topologías de red más importantes; conozca y asimile cada una de ellas:
+                p <b>En este punto, las características hacen referencia a los elementos que componen una red: <em>host</em>, <em>switch</em>, <em>router</em>, servidor, <em>firewall</em>, etc.</b> <br><br>En el siguiente recurso, le presentamos las topologías de red más importantes; conozca y asimile cada una de ellas:
                 
 
     TabsA.color-acento-botones(data-aos="fade-right")
@@ -70,7 +70,7 @@
           .col-lg-4.col-8
             img.mb-lg-0.mb-3(src="@/assets/curso/tema1/img07.png")
           .col-lg-8.col-12
-            p.mb-0 Cuando se habla de la topología, se está haciendo referencia al enlace constante entre dos puntos finales. Esta topología, denominada punto a punto conmutado, es básicamente el modo más tradicional de la telefonía básica. El valor que tiene una red permanente de punto a punto, está relacionado con el proceso de comunicación directo y sin obstáculos entre los puntos finales. El valor de una conexión punto-a-punto a demanda, es proporcional al número de pares posibles de abonados y se ha denominado como la ley de Metcalfe.
+            p.mb-0 Cuando se habla de la topología, se está haciendo referencia al enlace constante entre dos puntos finales. Esta topología, denominada punto a punto conmutado, es básicamente el modo más tradicional de la telefonía básica. El valor que tiene una red permanente de punto a punto, está relacionado con el proceso de comunicación directo y sin obstáculos entre los puntos finales. El valor de una conexión punto-a-punto a demanda, es proporcional al número de pares posibles de abonados y se ha denominado como la ley de <em>Metcalfe</em>.
       .tarjeta.tarjeta1.p-lg-5.p-3( titulo="Topología de bus")
         h4 Topología de bus
         .row.justify-content-center
@@ -127,26 +127,26 @@
         img.mb-lg-0.mb-3(src="@/assets/curso/tema1/img15.png")
       .col-lg-6.col-12
          AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
-          div(titulo="LAN (red de área local) ")
+          div(titulo="<em>LAN</em> (red de área local) ")
             p.mb-0 Su finalidad se relaciona con la unión de varios ordenadores y dispositivos conectados a un servidor.
-          div(titulo="WLAN (red de área local inalámbrica)")
-            p.mb-0 Una WLAN tiene la misma función que una LAN, pero las conexiones se realizan de forma inalámbrica.
-          div(titulo="WAN (red de área amplia)")
-            p.mb-0 Son las redes de mayor alcance, como lo es la red global de redes, Internet.
-          div(titulo="MAN (red de área metropolitana)")
-            p.mb-0 Las MAN suelen ser más grandes que las LAN, tienen como función conectar distintas áreas alejadas entre sí. Son redes de tamaño intermedio.
-          div(titulo="PAN (red de área personal)")
-            p.mb-0 Una PAN sirve a una persona. Se utiliza generalmente para uso personal o individual cuando se requiere, por ejemplo, en la oficina o trabajo.
-          div(titulo="SAN (red de área de almacenamiento)")
+          div(titulo="<em>WLAN</em> (red de área local inalámbrica)")
+            p.mb-0 Una <em>WLAN</em> tiene la misma función que una <em>LAN</em>, pero las conexiones se realizan de forma inalámbrica.
+          div(titulo="<em>WAN</em> (red de área amplia)")
+            p.mb-0 Son las redes de mayor alcance, como lo es la red global de redes, <em>Internet</em>.
+          div(titulo="<em>MAN</em> (red de área metropolitana)")
+            p.mb-0 Las <em>MAN</em> suelen ser más grandes que las <em>LAN</em>, tienen como función conectar distintas áreas alejadas entre sí. Son redes de tamaño intermedio.
+          div(titulo="<em>PAN</em> (red de área personal)")
+            p.mb-0 Una <em>PAN</em> sirve a una persona. Se utiliza generalmente para uso personal o individual cuando se requiere, por ejemplo, en la oficina o trabajo.
+          div(titulo="<em>SAN</em> (red de área de almacenamiento)")
             p.mb-0 Pueden gestionar una gran cantidad de tráfico. Es una red que forma parte de empresas que trabajan con servidores y quieren mantener un buen rendimiento.
-          div(titulo="CAN (red de área de campus)")
-            p.mb-0 Se puede inferir que se encuentra entre una LAN y una MAN. No es tan pequeña como una LAN, pero tampoco es tan grande como una MAN.
-          div(titulo="VPN (red privada virtual)")
-            p.mb-0 Una VPN realiza un canal cifrado que mantiene la identidad y las credenciales de acceso de un usuario, así como cualquier dato transferido.
+          div(titulo="<em>CAN</em> (red de área de campus)")
+            p.mb-0 Se puede inferir que se encuentra entre una <em>LAN</em> y una <em>MAN</em>. No es tan pequeña como una <em>LAN</em>, pero tampoco es tan grande como una <em>MAN</em>.
+          div(titulo="<em>VPN</em> (red privada virtual)")
+            p.mb-0 Una <em>VPN</em> realiza un canal cifrado que mantiene la identidad y las credenciales de acceso de un usuario, así como cualquier dato transferido.
 
     Separador
     #t_1_4.titulo-segundo.color-acento-contenido
-      h2 1.4  Modelo OSI
+      h2 1.4  Modelo <em>OSI</em>
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-10.col-12
@@ -155,7 +155,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema1/img16.png')})`}"
           )
           .bloque-texto-g__texto.p-lg-3.p-2
-            p.mb-0 Teniendo en cuenta que, en general, los conjuntos de protocolos de red se estructuran en capas, la Organización Internacional para la Estandarización (ISO) ha implementado el modelo de referencia de Interconexión de Sistemas Abiertos (OSI) que maneja capas estructuradas. El modelo OSI es el modelo de la interconexión de sistemas abiertos. <b>El modelo OSI está conformado por siete capas para las actividades de red y cada capa tiene asociados uno o más protocolos</b>.
+            p.mb-0 Teniendo en cuenta que, en general, los conjuntos de protocolos de red se estructuran en capas, la Organización Internacional para la Estandarización (<em>ISO</em>) ha implementado el modelo de referencia de Interconexión de Sistemas Abiertos (<em>OSI</em>) que maneja capas estructuradas. El modelo <em>OSI</em> es el modelo de la interconexión de sistemas abiertos. <b>El modelo <em>OSI</em> está conformado por siete capas para las actividades de red y cada capa tiene asociados uno o más protocolos</b>.
 
     p.mb-5 En la siguiente tabla, entérese de cuáles son esas capas y las especificidades de cada una de ellas:
 
@@ -214,20 +214,20 @@
                   h4.text-center 1
                 td
                   h4.text-center Física
-                td Da a conocer las características del hardware de red.
+                td Da a conocer las características del <em>hardware</em> de red.
         figcaption Nota: Tomada de la Guía de administración del sistema: servicios IP (2010).
     Separador
     #t_1_5.titulo-segundo.color-acento-contenido
-      h2 1.5  Protocolo TCP/IP
+      h2 1.5  Protocolo <em>TCP/IP</em>
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
       .col-lg-5.col-8
         img.mb-lg-0.mb-3(src="@/assets/curso/tema1/img17.png")
       .col-lg-7.col-12
-        p TCP/IP son las siglas de las siguientes palabras: <b>Transmission Control Protocol/Internet Protocol (Protocolo de control de transmisión/Protocolo de Internet)</b>.
+        p <em>TCP/IP</em> son las siglas de las siguientes palabras: <b><i>Transmission Control Protocol/<em>Internet</em> Protocol</i> (Protocolo de control de transmisión/Protocolo de <em>Internet</em>)</b>.
         .cajon.color-secundario.p-4.mb-4
-          p.mb-0 Los protocolos TCP/IP son un conjunto de reglas para formatos de mensajes y procedimientos, que permiten que el hardware y los softwares de aplicación, intercambien información.
-        p.mb-0 Despliegue el recurso que se muestra a continuación para tener un primer acercamiento conceptual a los protocolos TCP/IP y descubra cómo estos se disponen en capas.
+          p.mb-0 Los protocolos <em>TCP/IP</em> son un conjunto de reglas para formatos de mensajes y procedimientos, que permiten que el <em>hardware</em> y los <em>softwares</em> de aplicación, intercambien información.
+        p.mb-0 Despliegue el recurso que se muestra a continuación para tener un primer acercamiento conceptual a los protocolos <em>TCP/IP</em> y descubra cómo estos se disponen en capas.
     
     p.mb-5 Los protocolos TCP / IP se puede dar en términos de capas, como se muestra en la siguiente figura. 
     
@@ -243,9 +243,9 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")      
       .col-lg-7.col-12
-        p El Internet Protocol Version 4 (IPv4), conocido como el sistema de identificación que usa Internet para enviar información entre los dispositivos, maneja direcciones de 32 bits con hasta 12 caracteres, en cuatro bloques de 3 caracteres, cada bloque. El DNS los convierte en nombres de dominio como 1and1.es. ajustando todos los dígitos.
+        p El <em>Internet</em> Protocol Version 4 (IPv4), conocido como el sistema de identificación que usa <em>Internet</em> para enviar información entre los dispositivos, maneja direcciones de 32 bits con hasta 12 caracteres, en cuatro bloques de 3 caracteres, cada bloque. El <em>DNS</em> los convierte en nombres de dominio como 1and1.es. ajustando todos los dígitos.
         .cajon.color-primario.p-4.mb-lg-0.mb-3
-          p.mb-0 Por otra parte, está el Internet Protocol Version 6 (IPv6); su espacio de direcciones es de 128-bits. Este protocolo aumenta el tamaño de la dirección IP de 32 bits a 128 bits para así resistir más niveles en la jerarquía de direccionamiento y un número mayor de nodos direccionables. El diseño del protocolo suma muchos beneficios en seguridad: una mayor capacidad de transmisión, manejo de calidad de servicio y mejora la facilidad de administración.
+          p.mb-0 Por otra parte, está el <em>Internet</em> Protocol Version 6 (IPv6); su espacio de direcciones es de 128-bits. Este protocolo aumenta el tamaño de la dirección IP de 32 bits a 128 bits para así resistir más niveles en la jerarquía de direccionamiento y un número mayor de nodos direccionables. El diseño del protocolo suma muchos beneficios en seguridad: una mayor capacidad de transmisión, manejo de calidad de servicio y mejora la facilidad de administración.
       .col-lg-5.col-8
         img.mb-0(src="@/assets/curso/tema1/img19.png")
 
@@ -276,19 +276,19 @@
             .col-lg-1.col-5.p-0
               img.mb-lg-0.mb-3(style="min-width:80px !important; max-width:80px !important" src="@/assets/curso/tema1/img23.svg")
             .col-lg-10.col-12
-              p.mb-0 Gran número de direcciones IP para conexiones a Internet con el mundo exterior, facilitando el crecimiento de nuevas tecnologías como el internet de las cosas, las ciudades inteligentes, redes de sensores, entre otras. 
+              p.mb-0 Gran número de direcciones IP para conexiones a <em>Internet</em> con el mundo exterior, facilitando el crecimiento de nuevas tecnologías como el <em><em>internet</em> </em>de las cosas, las ciudades inteligentes, redes de sensores, entre otras. 
 
           .row.justify-content-center(titulo="Amparo tecnológico de los PSI")
             .col-lg-1.col-5.p-0
               img.mb-lg-0.mb-3(style="min-width:80px !important; max-width:80px !important" src="@/assets/curso/tema1/img24.svg")
             .col-lg-10.col-12
-              p.mb-0 Los Proveedores de Servicio de Internet, PSI, tendrán que preparar el proceso de transición de IPv6, mediante la creación de un backbone nativo de IPv6 que apoye a los clientes en el enrutamiento de las nuevas direcciones IPv6, a fin de garantizar la publicación de servicios y aplicaciones que se consideren pertinentes hacia internet.
+              p.mb-0 Los Proveedores de Servicio de <em>Internet</em>, PSI, tendrán que preparar el proceso de transición de IPv6, mediante la creación de un <em>backbone</em> nativo de IPv6 que apoye a los clientes en el enrutamiento de las nuevas direcciones IPv6, a fin de garantizar la publicación de servicios y aplicaciones que se consideren pertinentes hacia <em>internet</em>.
 
           .row.justify-content-center(titulo="Proveedores de servicio a cargo")
             .col-lg-1.col-5.p-0
               img.mb-lg-0.mb-3(style="min-width:80px !important; max-width:80px !important" src="@/assets/curso/tema1/img25.svg")
             .col-lg-10.col-12
-              p.mb-0 La implementación de IPv6 será un proceso gradual, cuya responsabilidad no será del gobierno sino del proveedor del servicio de internet directamente y no deberá generar costos directos.
+              p.mb-0 La implementación de IPv6 será un proceso gradual, cuya responsabilidad no será del gobierno sino del proveedor del servicio de <em><em>internet</em> </em>directamente y no deberá generar costos directos.
     Separador
     #t_1_7.titulo-segundo.color-acento-contenido
       h2 1.7  Enrutamiento IP
@@ -297,7 +297,7 @@
       .col-lg-5.col-8
         img.mb-lg-0.mb-3(src="@/assets/curso/tema1/img26.png")
       .col-lg-7.col-12
-        p <b>Acceder a la comunicación e interconectividad de redes, a través de paquetes IP enviados desde un origen a un destino, aprovechando la tecnología con la que cuenta cada router, permite diversas configuraciones y protocolos. </b>
+        p <b>Acceder a la comunicación e interconectividad de redes, a través de paquetes IP enviados desde un origen a un destino, aprovechando la tecnología con la que cuenta cada <em>router</em>, permite diversas configuraciones y protocolos. </b>
         p Algunas de sus utilidades son, entre otras, poder hallar redes remotas, conservar la información de enrutamiento actualizada, elegir el mejor camino hacia las redes de destino, poder encontrar un mejor camino nuevo si la ruta actual deja de estar disponible.
         p.mb-0 Descubra los tipos de enrutamiento IP que se presentan en el siguiente recurso. Conozca, además, sus ventajas y desventajas. Le sugerimos tomar nota atenta de los aspectos más importantes. ¡Adelante!
     
@@ -402,7 +402,7 @@
                       p.mb-0 Se requiere, por parte del administrador, conocimientos complejos sobre enrutamiento dinámico.
                     li 
                       i.fas.fa-check
-                      p.mb-0 Consume muchos recursos del router, así como banda ancha (Esto dependerá del tipo de protocolo que se suela usar.  
+                      p.mb-0 Consume muchos recursos del <em>router</em>, así como banda ancha (Esto dependerá del tipo de protocolo que se suela usar.  
                 
   
 </template>

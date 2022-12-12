@@ -14,7 +14,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema6/img01.png')})`}"
           )
           .bloque-texto-g__texto.p-lg-4.py-lg-5.p-2
-            p.mb-0 En la actualidad, el amplio uso de las tecnologías y la cantidad en aumento de usuarios en las redes y los sistemas ha favorecido la implantación de los delitos informáticos, es decir, todas aquellas acciones gravemente engañosas y de fraude que pueden cometerse en los ámbitos digitales y on line.
+            p.mb-0 En la actualidad, el amplio uso de las tecnologías y la cantidad en aumento de usuarios en las redes y los sistemas ha favorecido la implantación de los delitos informáticos, es decir, todas aquellas acciones gravemente engañosas y de fraude que pueden cometerse en los ámbitos digitales y <em>on line</em>.
 
     .fondo1.py-lg-5.py-3
       .row.justify-content-center.align-items-center.mb-0.position-relative(data-aos="fade-left")
@@ -34,7 +34,7 @@
               p.mb-0 Interceptación de datos informáticos.
             li.mb-2
               i.fas.fa-check(style="color:#083142")
-              p.mb-0 Daño informático; uso de software malicioso.
+              p.mb-0 Daño informático; uso de <em>software </em>malicioso.
             li.mb-2
               i.fas.fa-check(style="color:#083142")
               p.mb-0 Hurto por medios informáticos y semejantes. 
@@ -43,7 +43,7 @@
               p.mb-0 Violación de datos personales.
             li.mb-2
               i.fas.fa-check(style="color:#083142")
-              p.mb-0 Suplantación de sitios web para capturar datos personales y transferencia no consentida de activos.
+              p.mb-0 Suplantación de sitios <em><em>web</em> </em> para capturar datos personales y transferencia no consentida de activos.
             
 </template>
 

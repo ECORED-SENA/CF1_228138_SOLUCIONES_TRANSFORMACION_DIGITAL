@@ -89,7 +89,7 @@
           .col-lg-6.col-12
             br
             h4.mb-4 Seguridad
-            p.mb-0 Todo el ambiente del Sistema de Gestión de Seguridad de la Información según la ISO 27001, que contenga a los activos y que es necesario que garanticen los diferentes niveles de seguridad.
+            p.mb-0 Todo el ambiente del Sistema de Gestión de Seguridad de la Información según la <em>ISO</em> 27001, que contenga a los activos y que es necesario que garanticen los diferentes niveles de seguridad.
       .py-3.py-md-4(titulo="El sistema mismo")
         .row.justify-content-center
           .col-lg-5.col-8

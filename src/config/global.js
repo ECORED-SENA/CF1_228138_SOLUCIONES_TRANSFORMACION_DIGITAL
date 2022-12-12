@@ -58,13 +58,13 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: 'Modelo OSI',
+            titulo: 'Modelo <em>OSI</em>',
             hash: 't_1_4',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.5',
-            titulo: 'Protocolo TCP/IP',
+            titulo: 'Protocolo <em>TCP/IP</em>',
             hash: 't_1_5',
           },
           {
@@ -224,13 +224,13 @@ export default {
         nombreRuta: 'tema10',
         icono: 'far fa-file-alt',
         numero: '10',
-        titulo: 'Ethical hacking',
+        titulo: '<em>Ethical hacking</em>',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '10.1',
-            titulo: 'Objetivos del ethical hacking ',
+            titulo: 'Objetivos del <em>ethical </em>hacking ',
             hash: 't_10_1',
           },
           {
@@ -289,7 +289,7 @@ export default {
     },
     {
       referencia:
-        'Corporation and/or its affiliates. (2010). Modelo de referencia OSI. ORACLE. ',
+        'Corporation and/or its affiliates. (2010). Modelo de referencia <em>OSI</em>. ORACLE. ',
       link: 'https://docs.oracle.com/cd/E19957-01/820-2981/ipov-8/index.html',
     },
     {
@@ -312,7 +312,7 @@ export default {
     },
     {
       referencia:
-        'Organización Internacional de Normalización. (ISO). (2013). Seguridad de la información, ciberseguridad y protección de la privacidad (ISO 27001). ',
+        'Organización Internacional de Normalización. (<em>ISO</em>). (2013). Seguridad de la información, ciberseguridad y protección de la privacidad (<em>ISO</em> 27001). ',
       link: 'https://www.iso.org/standard/54534.html',
     },
     {
@@ -343,12 +343,12 @@ export default {
         'conjunto de metodologías, medidas y controles destinados a gestionar la seguridad de la información de una organización y/o de la información en general.',
     },
     {
-      termino: 'Ethical hacking',
+      termino: '<em>Ethical hacking</em>',
       significado:
         'proceso que se da al interior de las organizaciones a través del cual se exploran las vulnerabilidades existentes en los sistemas, haciendo pruebas de intrusión, que sirven para verificar y evaluar la seguridad física y lógica de los sistemas de información, redes de computadoras, aplicaciones web, bases de datos, servidores, etc.',
     },
     {
-      termino: 'Malware',
+      termino: '<em>Malware</em>',
       significado:
         'software diseñado para comprometer la seguridad de la información, como la utilidad y preservación del equipo.',
     },
@@ -378,7 +378,7 @@ export default {
       tema:
         '2. Normatividad y estándares: ciberseguridad<br><br>3. Normatividad y estándares: seguridad de la información',
       referencia:
-        'ISO. (2018). Seguridad de la información, ciberseguridad y protección de la privacidad (ISO 27005).',
+        '<em>ISO</em>. (2018). Seguridad de la información, ciberseguridad y protección de la privacidad (<em>ISO</em> 27005).',
       tipo: 'Norma / Documento',
       link: 'https://www.iso.org/standard/75281.html',
     },
@@ -386,7 +386,7 @@ export default {
       tema:
         '2. Normatividad y estándares: ciberseguridad<br><br>3. Normatividad y estándares: seguridad de la información',
       referencia:
-        'ISO. (2013). Seguridad de la información, ciberseguridad y protección de la privacidad (ISO 27002). ',
+        '<em>ISO</em>. (2013). Seguridad de la información, ciberseguridad y protección de la privacidad (<em>ISO</em> 27002). ',
       tipo: 'Norma / Documento',
       link: 'https://www.iso.org/standard/54533.htm',
     },
@@ -408,7 +408,8 @@ export default {
     },
     {
       tema: '9.2. Características, impacto y análisis de riesgos',
-      referencia: 'ISO (2018). Gestión del riesgo. Directrices (ISO 31000). ',
+      referencia:
+        '<em>ISO</em> (2018). Gestión del riesgo. Directrices (<em>ISO</em> 31000). ',
       tipo: 'Norma / Documento',
       link: 'https://www.iso.org/obp/ui#iso:std:iso:31000:ed-2:v1:es',
     },
