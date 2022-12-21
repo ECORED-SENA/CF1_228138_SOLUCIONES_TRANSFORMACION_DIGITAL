@@ -1,1 +1,1 @@
-module.exports = 'Fundamentos de seguridad digital y análisis de riesgos'
+module.exports = 'Análisis y valoración de riesgos de ciberseguridad'

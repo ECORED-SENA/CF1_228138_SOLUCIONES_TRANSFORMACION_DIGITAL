@@ -140,7 +140,7 @@
           p.text-small.text-white.mb-lg-0.mb-3 A continuación, se ha diseñado una guía sobre los riesgos, su impacto y probabilidad, su análisis y tratamiento. <b>Descarga</b> la siguiente infografía.
         .col-lg-3.col-12
           .p-0.w-100.d-flex.justify-content-center
-            a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+            a.boton.color-acento-botones(:href="obtenerLink('downloads/infografia_ciberseguridad_Caracteristicas.pdf')" target="_blank")
               span Descargar
               i.fas.fa-file-download
 

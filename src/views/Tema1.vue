@@ -12,7 +12,7 @@
         .bloque-texto-b__texto        
           .row.justify-content-center.align-items-center.d-flex
               .col-lg-10.col-12
-                p.mb-lg-0.mb-3 Para dar comienzo a este recorrido formativo por los fundamentos de seguridad digital y los análisis de riesgos, <b>presentamos algunos conceptos claves que orientarán la asimilación de los contenidos</b>. Preste toda su atención y disponibilidad para su estudio.
+                p.mb-lg-0.mb-3 La virtualización de muchas actividades ha transformado las bases de la sociedad y es comúnmente conocida como sociedad de la información y del conocimiento, que radica su fundamento en utilizar dispositivos digitales para las tareas diarias tales como comprar, vender, realizar operaciones financieras entre otras, a través de un solo clic.
               .col-lg-2.col-8.px-5
                 img.mb-0(src="@/assets/curso/tema1/img02.svg")
           
@@ -229,12 +229,59 @@
           p.mb-0 Los protocolos <em>TCP/IP</em> son un conjunto de reglas para formatos de mensajes y procedimientos, que permiten que el <em>hardware</em> y los <em>softwares</em> de aplicación, intercambien información.
         p.mb-0 Despliegue el recurso que se muestra a continuación para tener un primer acercamiento conceptual a los protocolos <em>TCP/IP</em> y descubra cómo estos se disponen en capas.
     
-    p.mb-5 Los protocolos TCP / IP se puede dar en términos de capas, como se muestra en la siguiente figura. 
+    p.mb-5 Los protocolos <em>TCP/IP</em> se puede dar en términos de capas, como se muestra en la siguiente figura. 
     
     .fondo1.p-4.mb-0
       .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
-        .col-lg-10.col-12
-          img.mb-lg-0.mb-3(src="@/assets/curso/tema1/img18.svg")
+        .col-lg-10.col-12.position-relative
+          ImagenInfografica.color-acento-botones.mb-5
+            template(v-slot:imagen)
+              figure
+                img(src="@/assets/curso/tema1/img18.svg")
+                figcaption Leyenda de la imagen
+
+            .tarjeta.color-acento-botones.p-3(x="12.7%" y="25%" numero="")
+              p.mb-0 La función la determina la aplicación que sea utilizada, es decir, proporcionar servicios de red que brindan la interfaz con el sistema operativo.
+            .tarjeta.color-acento-botones.p-3(x="29.2%" y="22.2%" numero="")
+              p.mb-0 <b><em>FTP (File Transfer Protocol)</em></b>: transferencia interactiva de archivos.
+            .tarjeta.color-acento-botones.p-3(x="42.5%" y="22.2%" numero="")
+              p.mb-0 <b><em>TELNET</em></b>: inicio de la sesión de forma remota.
+            .tarjeta.color-acento-botones.p-3(x="55.8%" y="22.2%" numero="")
+              p.mb-0 <b>HTTP (<em>Hypertext Transfer Protocol</em>):</b> transportar archivos que forman las páginas <em>web</em> de la <em>World Wide Web</em>.
+            .tarjeta.color-acento-botones.p-3(x="69%" y="22.2%" numero="")
+              p.mb-0 <b>SMTP (<em>Simple Mail Transfer Protocol</em>)</b>: transmisión de mensajes de correo electrónico y archivos adjuntos.
+            .tarjeta.color-acento-botones.p-3(x="82.24%" y="22.2%" numero="")
+              p.mb-0 <b>DNS (<em>Domain Name System</em>)</b>: intrepidez del nombre de un host a la dirección IP.
+            .tarjeta.color-acento-botones.p-3(x="12.7%" y="47%" numero="")
+              p.mb-0 Garantiza que los paquetes lleguen sin errores y en secuencia.
+            .tarjeta.color-acento-botones.p-3(x="29.2%" y="43.5%" numero="")
+              p.mb-0 <b>UDP (<em>User Datagram Protocol</em>)</b>: crea una transmisión no fiable, o sea, que no está libre de errores.
+            .tarjeta.color-acento-botones.p-3(x="42.5%" y="43.5%" numero="")
+              p.mb-0 <b>TCP (<em>Transmission Control Protocol</em>)</b>: forma una transmisión íntegra de datos. Es más complicado ya que contiene detección de errores y formas de recuperar los datos perdidos.
+            .tarjeta.color-acento-botones.p-3(x="12.7%" y="68.5%" numero="")
+              p.mb-0 Suministra el paquete de datos (datagrama). Se relacionan algunos protocolos de la siguiente manera:
+            .tarjeta.color-acento-botones.p-3(x="29.2%" y="65.5%" numero="")
+              p.mb-0 <b>IP (<em>Internet Protocol</em>)</b>: factor principal de todo el modelo. Se establece para definir la dirección IP, comprobando así la ruta que tiene que seguir el paquete.
+            .tarjeta.color-acento-botones.p-3(x="42.5%" y="65.5%" numero="")
+              p.mb-0 <b>ICMP (<em>Internet Control Message Protocol</em>)</b>: proveer notificaciones y diagnóstico de errores cuando se malogran los datagramas IP.
+            .tarjeta.color-acento-botones.p-3(x="55.2%" y="65.5%" numero="")
+              p.mb-0 <b>ARP (<em>Address Resolution Protocol</em>)</b>: asiste al protocolo IP a guiar los datos solventando la dirección <em>hardware</em> o <em>MAC</em>.
+            .tarjeta.color-acento-botones.p-3(x="68.5%" y="65.5%" numero="")
+              p.mb-0 <b>RARP (<em>Reverse Address Resolution Protocol</em>)</b>: igual que el ARP pero al revés, o sea, dada la MAC te regresa la IP.
+            .tarjeta.color-acento-botones.p-3(x="82%" y="65.5%" numero="")
+              p.mb-0 <b>NAT (<em>Network Address Translation</em>)</b>: transforma la dirección IP privada a una pública.
+            .tarjeta.color-acento-botones.p-3(x="94.7%" y="65.5%" numero="")
+              p.mb-0 <b>RIP (<em>Routing Information Protocol</em>)</b>: es manejado por los routers para intercambiar información de las diferentes redes y ordenar con mayor eficacia los paquetes.
+            .tarjeta.color-acento-botones.p-3(x="12.7%" y="91%" numero="")
+              p.mb-0 Está relacionada con componentes <em>hardware</em> que serán utilizados para la red y cómo enrutar los datos.
+            .tarjeta.color-acento-botones.p-3(x="29.2%" y="87.8%" numero="")
+              p.mb-0 Su función es gestionar la velocidad de transmisión de datos.
+            .tarjeta.color-acento-botones.p-3(x="42.5%" y="87.8%" numero="")
+              p.mb-0 Vincula el mensaje para conectarlo con la capa de red.
+            .tarjeta.color-acento-botones.p-3(x="63.5%" y="87.8%" numero="")
+              p.mb-0 Establece la topografía de la web por medio de <em>routers, hubs y switches</em>.
+            
+          
     Separador
     #t_1_6.titulo-segundo.color-acento-contenido
       h2 1.6  Protocolos IPv4 e IPv6

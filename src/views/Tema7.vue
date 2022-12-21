@@ -106,7 +106,7 @@
             br
             h4.mb-4 Información generada
             p.mb-0 Toda la información que se ha generado por la aplicación del Sistema de Gestión de Seguridad de la Información.
-      .py-3.py-md-4(titulo="Funciones empresariales")
+      .py-3.py-md-4(titulo="Funciones empresariales u organizacionales")
         .row.justify-content-center
           .col-lg-5.col-8
             img.mb-lg-0.mb-3(src="@/assets/curso/tema7/img10.png")
@@ -114,7 +114,7 @@
             br
             h4.mb-4 Funciones empresariales u organizacionales
             p.mb-0 Todas las funciones de una organización, con las que se pueden demostrar las diferentes exigencias del Sistema de Gestión de Seguridad de la Información y, además, genera los objetivos deseados.
-      .py-3.py-md-4(titulo="Métodos de valoración de riesgos")
+      .py-3.py-md-4(titulo="Métodos o sistemas de valoración de riesgos")
         .row.justify-content-center
           .col-lg-5.col-8
             img.mb-lg-0.mb-3(src="@/assets/curso/tema7/img11.png")

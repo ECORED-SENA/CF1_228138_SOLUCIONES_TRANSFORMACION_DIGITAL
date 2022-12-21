@@ -1,9 +1,8 @@
 export default {
   global: {
-    componenteFormativo:
-      'Fundamentos de seguridad digital y análisis de riesgos',
+    componenteFormativo: 'Análisis y valoración de riesgos de ciberseguridad',
     descripcionCurso:
-      'Con el estudio de este componente, el aprendiz profundizará en los fundamentos necesarios para diagnosticar el estado actual de la ciberseguridad en una organización, adoptando métodos de análisis y valoración de riesgos, como elementos fundamentales para definir un plan de tratamiento adecuado.',
+      'Con este componente, el aprendiz profundizará en los fundamentos necesarios para diagnosticar el estado actual de la ciberseguridad en una organización, adoptando métodos de análisis y valoración de riesgos, como elementos fundamentales para definir un plan de tratamiento adecuado.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -34,7 +33,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Producción Audiovisual',
+        titulo: 'Fundamentos de redes y <i>networking</i>',
         desarrolloContenidos: true,
         subMenu: [
           {

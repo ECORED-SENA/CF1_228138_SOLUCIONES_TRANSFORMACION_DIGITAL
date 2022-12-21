@@ -24,9 +24,24 @@
 
     p.mb-5 Para profundizar y afianzar en aspectos importantes relativos a normatividad y estándares, visite el recurso que se presenta a continuación. Haga un estudio consciente de todos los elementos que allí se muestran.
 
-    figure(data-aos="fade-left")
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    figure.mb-5(data-aos="fade-left")
+      .video        
+        iframe(width="1280" height="720" src="https://www.youtube.com/embed/WiBw1gUfa-g" title="Prácticas e implementación de la ciberseguridad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+    .fondo1.p-3.mb-0(data-aos="fade-right")
+      .row.justify-content-center.align-items-center.d-flex
+        .col-lg-2.col-8
+          .p-0.w-100.d-flex.justify-content-center
+            img.mb-lg-0.mb-3(style="width:80px" src="@/assets/curso/tema2/t9-ic8.52aea2ee.svg")
+        .col-lg-7.col-12
+          h3.mb-2.text-white Normatividad y estándares de la ciberseguridad
+          p.text-small.text-white.mb-lg-0.mb-3 Complemente la información sobre la normatividad en la siguiente infografía.
+        .col-lg-3.col-12
+          .p-0.w-100.d-flex.justify-content-center
+            a.boton.color-acento-botones(:href="obtenerLink('downloads/Infografia_Normatividad_y_estandares_de_la_ciberseguridad.pdf')" target="_blank")
+              span Descargar
+              i.fas.fa-file-download
+
 </template>
 
 <script>
