@@ -1,3 +1,6 @@
+.banner-principal .tarjeta
+  background-position: 0 center
+  
 .banner-principal-decorativo
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
@@ -27,7 +30,18 @@ iframe
 .slyder-a__btn--atrs, .slyder-a__btn--sigt
   background-image: url("../assets/curso/flecha.svg") !important  
 
+.slyder-a__bullets
+  bottom: -30px !important
 
+.slyder-a__bullets
+  flex-wrap: wrap
+  justify-content: center
+  div
+    margin: 3px 10px
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  @media (max-width: 992px)
+    top: 100%
 
 .titulo-sexto
   border-left: 5px solid
@@ -43,6 +57,9 @@ iframe
 .cajon.color-primario
   background-color: #c2d6de
 
+.Mn-2
+  @media (min-width: 1200px)
+    margin-top: -20px
 
 td
   border: 1px solid #E8E8E8 !important
@@ -359,6 +376,9 @@ td
       background-size: 100% 100%
       background-repeat: no-repeat
       background-position: center
+
+.CPointer
+  cursor: pointer
 
 .tema9
   .bloque-texto-g

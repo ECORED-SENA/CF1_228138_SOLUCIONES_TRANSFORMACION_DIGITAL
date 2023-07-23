@@ -17,17 +17,17 @@
             p.mb-0 De la misma manera que en los procesos de seguridad de la información y ciberseguridad, es importante en la gestión de riesgos de la seguridad de la información, utilizar los lineamientos de las siguientes normas y estándares:
 
 
-    .tarjeta.tarjeta--azul.p-3.py-lg-5.mb-0(style="background-color:#fff3ea" data-aos="fade-left")
+    .tarjeta.tarjeta--azul.p-3.py-5.mb-0(style="background-color:#fff3ea" data-aos="fade-left")
       SlyderA
         .row.justify-content-center
           .col-lg-5.col-12
             br
             br
             p Es importante para la gestión de riesgos utilizar los lineamientos de las siguientes normas y estándares:
-            p <b><em>ISO</em> 31000: Gestión del riesgo</b>. Directrices: esta normativa establece principios y guías para diseñar, implementar y mantener la gestión de los riesgos en forma sistemática y de transparencia de toda forma de riesgo, por ejemplo: financiera, operativa, de mercadeo, de imagen, y de seguridad de información.
-            p.mb-lg-0.mb-3 <b><em>ISO</em>/IEC 27005. Gestión de riesgos de la Seguridad la Información</b>. Esta norma se encuentra estructurada con 14 numerales de control de seguridad de la información que en su conjunto contiene más de 35 de categorías de seguridad principal y 114 controles.
+            p <b>ISO 31000: Gestión del riesgo</b>. Directrices: esta normativa establece principios y guías para diseñar, implementar y mantener la gestión de los riesgos en forma sistemática y de transparencia de toda forma de riesgo, por ejemplo: financiera, operativa, de mercadeo, de imagen, y de seguridad de información.
+            p.mb-lg-0.mb-3 <b>ISO/IEC 27005. Gestión de riesgos de la Seguridad la Información</b>. Esta norma se encuentra estructurada con 14 numerales de control de seguridad de la información que en su conjunto contiene más de 35 de categorías de seguridad principal y 114 controles.
           .col-lg-5.col-8
-            img.mb-0(src="@/assets/curso/tema3/img02.png")
+            img.mb-0(alt="" src="@/assets/curso/tema3/img02.png")
         .row.justify-content-center
           .col-lg-5.col-12
             br
@@ -53,7 +53,7 @@
                 i.fas.fa-check(style="color:#083142")
                 p.mb-0 Monitoreo y revisión del riesgo <b>((ICONTEC), 2009-08-19)</b>
           .col-lg-5.col-8
-            img.mb-0(src="@/assets/curso/tema3/img03.png")
+            img.mb-0(alt="" src="@/assets/curso/tema3/img03.png")
         .row.justify-content-center
           .col-lg-5.col-12
             br
@@ -65,9 +65,9 @@
                 p.mb-0 <b>Identificar</b> los niveles de riesgo de ciberseguridad en la organización.
               li.mb-0
                 i.fas.fa-check(style="color:#083142")
-                p.mb-0 <b>Hacer un plan de tratamiento</b> para la gestión de los riesgos que permita la disminución de los riesgos, facilitando lineamientos para gestionar los riesgos, apoyándose con las directrices de la <em>ISO</em> 27001 y 27002.
+                p.mb-0 <b>Hacer un plan de tratamiento</b> para la gestión de los riesgos que permita la disminución de los riesgos, facilitando lineamientos para gestionar los riesgos, apoyándose con las directrices de la ISO 27001 y 27002.
           .col-lg-5.col-8
-            img.mb-0(src="@/assets/curso/tema3/img04.png")
+            img.mb-0(alt="" src="@/assets/curso/tema3/img04.png")
         .row.justify-content-center
           .col-lg-5.col-12
             br
@@ -75,7 +75,7 @@
             h4.mb-4 Alcance
             p.mb-lg-0.mb-3 La adopción de normatividad y estándares de gestión de riesgos de seguridad de la información tiene como alcance hacer el análisis de riesgos de los activos de información de las organizaciones determinando el impacto en los activos de información.                         
           .col-lg-5.col-8
-            img.mb-0(src="@/assets/curso/tema3/img05.png")
+            img.mb-0(alt="" src="@/assets/curso/tema3/img05.png")
         .row.justify-content-center
           .col-lg-5.col-12
             br
@@ -99,7 +99,7 @@
                 i.fas.fa-check(style="color:#083142")
                 p.mb-0 Mejora la comunicación y el flujo de información.              
           .col-lg-5.col-8
-            img.mb-0(src="@/assets/curso/tema3/img06.png")
+            img.mb-0(alt="" src="@/assets/curso/tema3/img06.png")
         .row.justify-content-center
           .col-lg-5.col-12
             br
@@ -109,14 +109,14 @@
             ul.lista-ul--color.mb-lg-0.mb-3
               li.mb-0
                 i.fas.fa-check(style="color:#083142")
-                p.mb-0 <b><em>ISO</em>/IEC 27005</b>: seguridad de la información, ciberseguridad y protección de la privacidad.
+                p.mb-0 <b>ISO/IEC 27005</b>: seguridad de la información, ciberseguridad y protección de la privacidad.
               li.mb-0
                 i.fas.fa-check(style="color:#083142")
-                p.mb-0 <b><em>ISO</em> 31000:2018</b>. Gestión del riesgo. Directrices.
+                p.mb-0 <b>ISO 31000:2018</b>. Gestión del riesgo. Directrices.
               
               
           .col-lg-5.col-8
-            img.mb-0(src="@/assets/curso/tema3/img07.png")
+            img.mb-0(alt="" src="@/assets/curso/tema3/img07.png")
 </template>
 
 <script>

@@ -11,21 +11,21 @@
       .bloque-texto-b.color-secundario.p-4.mb-0(data-aos="fade-left")
         .bloque-texto-b__texto        
           .row.justify-content-center.align-items-center.d-flex
-              .col-lg-10.col-12
-                p.mb-lg-0.mb-3 La virtualización de muchas actividades ha transformado las bases de la sociedad y es comúnmente conocida como sociedad de la información y del conocimiento, que radica su fundamento en utilizar dispositivos digitales para las tareas diarias tales como comprar, vender, realizar operaciones financieras entre otras, a través de un solo clic.
-              .col-lg-2.col-8.px-5
-                img.mb-0(src="@/assets/curso/tema1/img02.svg")
+            .col-lg-10.col-12.mb-4.mg-lg-0
+              p La virtualización de muchas actividades ha transformado las bases de la sociedad y es comúnmente conocida como sociedad de la información y del conocimiento, que radica su fundamento en utilizar dispositivos digitales para las tareas diarias tales como comprar, vender, realizar operaciones financieras entre otras, a través de un solo clic.
+            .col-lg-2.col-md-5.col-8.px-5
+              img.mb-0(alt="" src="@/assets/curso/tema1/img02.svg")
           
 
     Separador
     #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1 Conceptos
 
-    p Una red de computadoras es un conjunto de ordenadores y otros dispositivos que se conectan entre sí, tanto de manera alámbrica, es decir por cables, o inalámbricas o sea <i>wifi</i>, para intercambiar información y compartir recursos.
+    p Una red de computadoras es un conjunto de ordenadores y otros dispositivos que se conectan entre sí, tanto de manera alámbrica, es decir por cables, o inalámbricas o sea <i>Wifi</i>, para intercambiar información y compartir recursos.
     .row.justify-content-center.align-items-center(data-aos="fade-right")
       .col-lg-4.col-12
         .TFcontainer.mb-lg-0.mb-3.p-0
-          img.TFimage(src='@/assets/curso/tema1/img03.svg')
+          img.TFimage(alt="" src='@/assets/curso/tema1/img03.svg')
           .TFoverlay.d-flex.align-items-top(style="background-color: #ffe5cf")
             .px-3.w-100
               div.w-100
@@ -34,20 +34,20 @@
 
       .col-lg-4.col-12
         .TFcontainer.mb-lg-0.mb-3.p-0
-          img.TFimage(src='@/assets/curso/tema1/img04.svg')
+          img.TFimage(alt="" src='@/assets/curso/tema1/img04.svg')
           .TFoverlay.d-flex.align-items-top(style="background-color: #ffe5cf")
             .px-3.w-100
               div.w-100
                 h4.text-center.w-100.p-2(style="background-color: white; border-radius: 19px") Conexión unificada
-              p.mb-0.text-center.contenidooculto También da la posibilidad de adecuar una única conexión a <em><em>internet</em> </em>en varios ordenadores.
+              p.mb-0.text-center.contenidooculto También da la posibilidad de adecuar una única conexión a internet en varios ordenadores.
       .col-lg-4.col-12
         .TFcontainer.mb-lg-0.mb-3.p-0
-          img.TFimage(src='@/assets/curso/tema1/img05.svg')
+          img.TFimage(alt="" src='@/assets/curso/tema1/img05.svg')
           .TFoverlay.d-flex.align-items-top(style="background-color: #ffe5cf")
             .px-3.w-100
               div.w-100
                 h4.text-center.w-100.p-2(style="background-color: white; border-radius: 19px") Intercambio de información y dispositivos
-              p.mb-0.text-center.contenidooculto La red informática tiene la habilidad de compartir impresora y otros periféricos, además de enviar y recibir mensajes y pasar archivos a otros ordenadores sin necesitar de un cd, memoria <i>USB</i> u otro elemento.
+              p.mb-0.text-center.contenidooculto La red informática tiene la habilidad de compartir impresora y otros periféricos, además de enviar y recibir mensajes y pasar archivos a otros ordenadores sin necesitar de un cd, memoria USB u otro elemento.
 
     Separador
     #t_1_2.titulo-segundo.color-acento-contenido
@@ -58,7 +58,7 @@
         .bloque-texto-b__texto        
           .row.justify-content-center.align-items-center.d-flex
             .col-lg-2.col-8.px-5
-                img.mb-lg-0.mb-3(src="@/assets/curso/tema1/img06.svg")
+                img.mb-lg-0.mb-3(alt="" src="@/assets/curso/tema1/img06.svg")
             .col-lg-10.col-12
                 p <b>En este punto, las características hacen referencia a los elementos que componen una red: <em>host</em>, <em>switch</em>, <em>router</em>, servidor, <em>firewall</em>, etc.</b> <br><br>En el siguiente recurso, le presentamos las topologías de red más importantes; conozca y asimile cada una de ellas:
                 
@@ -68,28 +68,28 @@
         h4 Punto a punto
         .row.justify-content-center
           .col-lg-4.col-8
-            img.mb-lg-0.mb-3(src="@/assets/curso/tema1/img07.png")
+            img.mb-lg-0.mb-3(alt="" src="@/assets/curso/tema1/img07.png")
           .col-lg-8.col-12
             p.mb-0 Cuando se habla de la topología, se está haciendo referencia al enlace constante entre dos puntos finales. Esta topología, denominada punto a punto conmutado, es básicamente el modo más tradicional de la telefonía básica. El valor que tiene una red permanente de punto a punto, está relacionado con el proceso de comunicación directo y sin obstáculos entre los puntos finales. El valor de una conexión punto-a-punto a demanda, es proporcional al número de pares posibles de abonados y se ha denominado como la ley de <em>Metcalfe</em>.
       .tarjeta.tarjeta1.p-lg-5.p-3( titulo="Topología de bus")
         h4 Topología de bus
         .row.justify-content-center
           .col-lg-4.col-8
-            img.mb-lg-0.mb-3(src="@/assets/curso/tema1/img08.png")
+            img.mb-lg-0.mb-3(alt="" src="@/assets/curso/tema1/img08.png")
           .col-lg-8.col-12
             p.mb-0 Cuando se hace referencia a la topología de bus, hay que tener sabido que todos los equipos están conectados a un circuito común. Allí, toda la información que sea enviada desde un equipo hasta otro, viajará de manera directa o indirecta, mientras exista un controlador que enrute los datos al destino indicado. La información será procesada por el cable en ambas direcciones y lo hará a una velocidad aproximada de 10/100 Mbps y tendrá en sus dos extremos una resistencia (terminador). Es posible conectar al bus una buena cantidad de computadores o equipos y, si alguno de los computadores llega a fallar, la comunicación se podrá mantener, pero, en cambio, si la falla se presenta en el bus, entonces no sucederá lo mismo. Existen varios tipos de cableado, entre los que se puede encontrar el cableado coaxial, el par trenzado o la denominada fibra óptica. En una topología de bus, cada uno de los equipos o computadores está conectado a un segmento común de cable de red.
       .tarjeta.tarjeta1.p-lg-5.p-3( titulo="La topología en estrella")
         h4 La topología en estrella
         .row.justify-content-center
           .col-lg-4.col-8
-            img.mb-lg-0.mb-3(src="@/assets/curso/tema1/img09.png")
+            img.mb-lg-0.mb-3(alt="" src="@/assets/curso/tema1/img09.png")
           .col-lg-8.col-12
             p.mb-0 Esta topología reduce la posibilidad de que la red falle, conectando todos los computadores a un nodo central. Cuando se pone a una red basada en la topología estrella, este concentrador central vuelve a enviar todas las transmisiones recibidas de cualquier computador periférico a todos los computadores periféricos de la red; algunas veces, incluso, al computador que lo envió. Todos los computadores o equipos periféricos se pueden comunicar con los demás recibiendo del computador central solamente. Una falla en la línea de conexión de cualquier computador con el computador central provocaría el aislamiento de ese nodo respecto a los demás, pero el resto de los sistemas permanecería intacto.
       .tarjeta.tarjeta1.p-lg-5.p-3( titulo="Topología en anillo")
         h4 Topología en anillo
         .row.justify-content-center
           .col-lg-4.col-8
-            img.mb-lg-0.mb-3(src="@/assets/curso/tema1/img10.png")
+            img.mb-lg-0.mb-3(alt="" src="@/assets/curso/tema1/img10.png")
           .col-lg-8.col-12
             p En la topología en anillo, cuando el nodo central es pasivo, el nodo origen ha de tener la capacidad de tolerar un eco de su transmisión. Una red, en estrella activa, tiene un nodo central activo que, generalmente, cuenta con los medios necesarios para prevenir problemas afines al eco.  
             p.mb-0 La red en anillo, es básicamente una topología de red a través de la cual, cada estación tiene una única conexión de entrada y otra de salida. Cada estación cuenta con un receptor y un transmisor que tiene como función ser traductor, es decir, que pasa la señal a la estación siguiente. A través de un token, conocido también como testigo. La comunicación, en este tipo de red, es permitida; es así como se logran evitar las probables pérdidas de información por colisiones. 
@@ -97,7 +97,7 @@
         h4 La topología en árbol
         .row.justify-content-center
           .col-lg-4.col-8
-            img.mb-lg-0.mb-3(src="@/assets/curso/tema1/img12.png")
+            img.mb-lg-0.mb-3(alt="" src="@/assets/curso/tema1/img12.png")
           .col-lg-8.col-12
             p A la topología en árbol también se le conoce como topología jerárquica y se le puede definir como la colección de redes, en estrella, que tiene un orden jerárquico. Esta tipología de árbol cuenta con nodos periféricos individuales que requieren tanto transmitir como hacer recepción, únicamente, de otro nodo; y no se requiere, que actúen como repetidores o regeneradores. La función del nodo central es posible distribuirla, de manera contraria a como se hace en las redes en estrella.
             p.mb-0 Como en las redes en estrella convencionales, los nodos individuales podrían permanecer aislados de la red por un fallo puntual en la ruta de conexión del nodo. 
@@ -105,14 +105,14 @@
         h4 Topología en malla
         .row.justify-content-center
           .col-lg-4.col-8
-            img.mb-lg-0.mb-3(src="@/assets/curso/tema1/img13.png")
+            img.mb-lg-0.mb-3(alt="" src="@/assets/curso/tema1/img13.png")
           .col-lg-8.col-12
             p.mb-0 La topología de red mallada tiene como finalidad tener conectado cada nodo, a todos los nodos. De esta manera es posible dirigir los mensajes de un nodo a otro por diferentes caminos. Si la red de malla está totalmente conectada, no puede existir ninguna clase de interrupción en las comunicaciones. Cada servidor tiene sus propias conexiones con todos los demás servidores. 
       .tarjeta.tarjeta1.p-lg-5.p-3( titulo="Topología híbrida o mixta")
         h4 Topología híbrida o mixta
         .row.justify-content-center
           .col-lg-4.col-8
-            img.mb-lg-0.mb-3(src="@/assets/curso/tema1/img14.png")
+            img.mb-lg-0.mb-3(alt="" src="@/assets/curso/tema1/img14.png")
           .col-lg-8.col-12
             p.mb-0 En esta topología las redes pueden utilizar diferentes tipologías para conectarse, como por ejemplo en estrella. La topología híbrida es una de las más comunes y se adquiere de la unión de varios tipos de topologías de red, de aquí el nombre de híbridas. Como, por ejemplo: en árbol, estrella-estrella, bus-estrella, etc.
 
@@ -124,29 +124,29 @@
 
     .row.justify-content-center.align-items-center(data-aos="fade-left")
       .col-lg-6.col-8
-        img.mb-lg-0.mb-3(src="@/assets/curso/tema1/img15.png")
+        img.mb-lg-0.mb-3(alt="" src="@/assets/curso/tema1/img15.png")
       .col-lg-6.col-12
          AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
-          div(titulo="<em>LAN</em> (red de área local) ")
+          div(titulo="LAN (red de área local) ")
             p.mb-0 Su finalidad se relaciona con la unión de varios ordenadores y dispositivos conectados a un servidor.
-          div(titulo="<em>WLAN</em> (red de área local inalámbrica)")
-            p.mb-0 Una <em>WLAN</em> tiene la misma función que una <em>LAN</em>, pero las conexiones se realizan de forma inalámbrica.
-          div(titulo="<em>WAN</em> (red de área amplia)")
-            p.mb-0 Son las redes de mayor alcance, como lo es la red global de redes, <em>Internet</em>.
-          div(titulo="<em>MAN</em> (red de área metropolitana)")
-            p.mb-0 Las <em>MAN</em> suelen ser más grandes que las <em>LAN</em>, tienen como función conectar distintas áreas alejadas entre sí. Son redes de tamaño intermedio.
-          div(titulo="<em>PAN</em> (red de área personal)")
-            p.mb-0 Una <em>PAN</em> sirve a una persona. Se utiliza generalmente para uso personal o individual cuando se requiere, por ejemplo, en la oficina o trabajo.
-          div(titulo="<em>SAN</em> (red de área de almacenamiento)")
+          div(titulo="WLAN (red de área local inalámbrica)")
+            p.mb-0 Una WLAN tiene la misma función que una LAN, pero las conexiones se realizan de forma inalámbrica.
+          div(titulo="WAN (red de área amplia)")
+            p.mb-0 Son las redes de mayor alcance, como lo es la red global de redes, internet.
+          div(titulo="MAN (red de área metropolitana)")
+            p.mb-0 Las MAN suelen ser más grandes que las LAN, tienen como función conectar distintas áreas alejadas entre sí. Son redes de tamaño intermedio.
+          div(titulo="PAN (red de área personal)")
+            p.mb-0 Una PAN sirve a una persona. Se utiliza generalmente para uso personal o individual cuando se requiere, por ejemplo, en la oficina o trabajo.
+          div(titulo="SAN (red de área de almacenamiento)")
             p.mb-0 Pueden gestionar una gran cantidad de tráfico. Es una red que forma parte de empresas que trabajan con servidores y quieren mantener un buen rendimiento.
-          div(titulo="<em>CAN</em> (red de área de campus)")
-            p.mb-0 Se puede inferir que se encuentra entre una <em>LAN</em> y una <em>MAN</em>. No es tan pequeña como una <em>LAN</em>, pero tampoco es tan grande como una <em>MAN</em>.
-          div(titulo="<em>VPN</em> (red privada virtual)")
-            p.mb-0 Una <em>VPN</em> realiza un canal cifrado que mantiene la identidad y las credenciales de acceso de un usuario, así como cualquier dato transferido.
+          div(titulo="CAN (red de área de campus)")
+            p.mb-0 Se puede inferir que se encuentra entre una LAN y una MAN. No es tan pequeña como una LAN, pero tampoco es tan grande como una MAN.
+          div(titulo="VPN (red privada virtual)")
+            p.mb-0 Una VPN realiza un canal cifrado que mantiene la identidad y las credenciales de acceso de un usuario, así como cualquier dato transferido.
 
     Separador
     #t_1_4.titulo-segundo.color-acento-contenido
-      h2 1.4  Modelo <em>OSI</em>
+      h2 1.4  Modelo OSI
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-10.col-12
@@ -155,14 +155,14 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema1/img16.png')})`}"
           )
           .bloque-texto-g__texto.p-lg-3.p-2
-            p.mb-0 Teniendo en cuenta que, en general, los conjuntos de protocolos de red se estructuran en capas, la Organización Internacional para la Estandarización (<em>ISO</em>) ha implementado el modelo de referencia de Interconexión de Sistemas Abiertos (<em>OSI</em>) que maneja capas estructuradas. El modelo <em>OSI</em> es el modelo de la interconexión de sistemas abiertos. <b>El modelo <em>OSI</em> está conformado por siete capas para las actividades de red y cada capa tiene asociados uno o más protocolos</b>.
+            p.mb-0 Teniendo en cuenta que, en general, los conjuntos de protocolos de red se estructuran en capas, la Organización Internacional para la Estandarización (ISO) ha implementado el modelo de referencia de Interconexión de Sistemas Abiertos (OSI) que maneja capas estructuradas. El modelo OSI es el modelo de la interconexión de sistemas abiertos. <b>El modelo OSI está conformado por siete capas para las actividades de red y cada capa tiene asociados uno o más protocolos</b>.
 
     p.mb-5 En la siguiente tabla, entérese de cuáles son esas capas y las especificidades de cada una de ellas:
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-10.col-12
         .titulo-sexto.color-acento-contenido
-          p.titulo <b>Tabla 1.</b> <i>Modelo de referencia de Interconexión de Sistemas Abiertos</i> 
+          p.titulo <b>Tabla 1.</b> Modelo de referencia de Interconexión de Sistemas Abiertos 
 
         .tabla-b.color-acento-contenido
           table
@@ -178,7 +178,7 @@
                   h4.text-center 7 
                 td
                   h4.text-center Aplicación
-                td Tienen costos más bajos frente a las encuestas presenciales.
+                td Hace referencia a cada uno de los servicios y/o las aplicaciones de comunicación estándar, que pueden ser manipulados o utilizados por cualquier usuario.
               tr
                 td
                   h4.text-center 6
@@ -218,18 +218,18 @@
         figcaption Nota: Tomada de la Guía de administración del sistema: servicios IP (2010).
     Separador
     #t_1_5.titulo-segundo.color-acento-contenido
-      h2 1.5  Protocolo <em>TCP/IP</em>
+      h2 1.5  Protocolo TCP/IP
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
       .col-lg-5.col-8
-        img.mb-lg-0.mb-3(src="@/assets/curso/tema1/img17.png")
+        img.mb-lg-0.mb-3(alt="" src="@/assets/curso/tema1/img17.png")
       .col-lg-7.col-12
-        p <em>TCP/IP</em> son las siglas de las siguientes palabras: <b><i>Transmission Control Protocol/<em>Internet</em> Protocol</i> (Protocolo de control de transmisión/Protocolo de <em>Internet</em>)</b>.
+        p TCP/IP son las siglas de las siguientes palabras: <b><i>Transmission Control Protocol/Internet Protocol</i> (Protocolo de control de transmisión/Protocolo de internet)</b>.
         .cajon.color-secundario.p-4.mb-4
-          p.mb-0 Los protocolos <em>TCP/IP</em> son un conjunto de reglas para formatos de mensajes y procedimientos, que permiten que el <em>hardware</em> y los <em>softwares</em> de aplicación, intercambien información.
-        p.mb-0 Despliegue el recurso que se muestra a continuación para tener un primer acercamiento conceptual a los protocolos <em>TCP/IP</em> y descubra cómo estos se disponen en capas.
+          p.mb-0 Los protocolos TCP/IP son un conjunto de reglas para formatos de mensajes y procedimientos, que permiten que el <em>hardware</em> y los <em>softwares</em> de aplicación, intercambien información.
+        p.mb-0 Despliegue el recurso que se muestra a continuación para tener un primer acercamiento conceptual a los protocolos TCP/IP y descubra cómo estos se disponen en capas.
     
-    p.mb-5 Los protocolos <em>TCP/IP</em> se puede dar en términos de capas, como se muestra en la siguiente figura. 
+    p.mb-5 Los protocolos TCP/IP se puede dar en términos de capas, como se muestra en la siguiente figura. 
     
     .fondo1.p-4.mb-0
       .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
@@ -237,49 +237,55 @@
           ImagenInfografica.color-acento-botones.mb-5
             template(v-slot:imagen)
               figure
-                img(src="@/assets/curso/tema1/img18.svg")
-                figcaption Leyenda de la imagen
+                img(alt="" src="@/assets/curso/tema1/img18.svg")
 
-            .tarjeta.color-acento-botones.p-3(x="12.7%" y="25%" numero="")
+            .tarjeta.color-acento-botones.p-3(x="12.7%" y="26%" numero="")
+              p.mb-1 <b>Capa de aplicación</b>
               p.mb-0 La función la determina la aplicación que sea utilizada, es decir, proporcionar servicios de red que brindan la interfaz con el sistema operativo.
-            .tarjeta.color-acento-botones.p-3(x="29.2%" y="22.2%" numero="")
-              p.mb-0 <b><em>FTP (File Transfer Protocol)</em></b>: transferencia interactiva de archivos.
-            .tarjeta.color-acento-botones.p-3(x="42.5%" y="22.2%" numero="")
-              p.mb-0 <b><em>TELNET</em></b>: inicio de la sesión de forma remota.
-            .tarjeta.color-acento-botones.p-3(x="55.8%" y="22.2%" numero="")
-              p.mb-0 <b>HTTP (<em>Hypertext Transfer Protocol</em>):</b> transportar archivos que forman las páginas <em>web</em> de la <em>World Wide Web</em>.
-            .tarjeta.color-acento-botones.p-3(x="69%" y="22.2%" numero="")
+            .tarjeta.color-acento-botones.p-3(x="29.2%" y="23.2%" numero="")
+              p.mb-0 <b>FTP (<em>File Transfer Protocol</em>)</b>: transferencia interactiva de archivos.
+            .tarjeta.color-acento-botones.p-3(x="42.5%" y="23.2%" numero="")
+              p.mb-0 <b>TELNET</b>: inicio de la sesión de forma remota.
+            .tarjeta.color-acento-botones.p-3(x="55.8%" y="23.2%" numero="")
+              p.mb-0 <b>HTTP (<em>Hypertext Transfer Protocol</em>):</b> transportar archivos que forman las páginas web de la <em>World Wide Web</em>.
+            .tarjeta.color-acento-botones.p-3(x="69%" y="23.2%" numero="")
               p.mb-0 <b>SMTP (<em>Simple Mail Transfer Protocol</em>)</b>: transmisión de mensajes de correo electrónico y archivos adjuntos.
-            .tarjeta.color-acento-botones.p-3(x="82.24%" y="22.2%" numero="")
+            .tarjeta.color-acento-botones.p-3(x="82.24%" y="23.2%" numero="")
               p.mb-0 <b>DNS (<em>Domain Name System</em>)</b>: intrepidez del nombre de un host a la dirección IP.
-            .tarjeta.color-acento-botones.p-3(x="12.7%" y="47%" numero="")
+
+            .tarjeta.color-acento-botones.p-3(x="12.7%" y="50%" numero="")
+              p.mb-1 <b>Capa de transporte (TCP)</b> 
               p.mb-0 Garantiza que los paquetes lleguen sin errores y en secuencia.
-            .tarjeta.color-acento-botones.p-3(x="29.2%" y="43.5%" numero="")
+            .tarjeta.color-acento-botones.p-3(x="29.2%" y="46.3%" numero="")
               p.mb-0 <b>UDP (<em>User Datagram Protocol</em>)</b>: crea una transmisión no fiable, o sea, que no está libre de errores.
-            .tarjeta.color-acento-botones.p-3(x="42.5%" y="43.5%" numero="")
+            .tarjeta.color-acento-botones.p-3(x="42.5%" y="46.3%" numero="")
               p.mb-0 <b>TCP (<em>Transmission Control Protocol</em>)</b>: forma una transmisión íntegra de datos. Es más complicado ya que contiene detección de errores y formas de recuperar los datos perdidos.
-            .tarjeta.color-acento-botones.p-3(x="12.7%" y="68.5%" numero="")
+
+            .tarjeta.color-acento-botones.p-3(x="12.7%" y="73%" numero="")
+              p.mb-1 <b>Capa de internet del modelo TCP/IP</b>
               p.mb-0 Suministra el paquete de datos (datagrama). Se relacionan algunos protocolos de la siguiente manera:
-            .tarjeta.color-acento-botones.p-3(x="29.2%" y="65.5%" numero="")
+            .tarjeta.color-acento-botones.p-3(x="29.2%" y="70%" numero="")
               p.mb-0 <b>IP (<em>Internet Protocol</em>)</b>: factor principal de todo el modelo. Se establece para definir la dirección IP, comprobando así la ruta que tiene que seguir el paquete.
-            .tarjeta.color-acento-botones.p-3(x="42.5%" y="65.5%" numero="")
+            .tarjeta.color-acento-botones.p-3(x="42.3%" y="70%" numero="")
               p.mb-0 <b>ICMP (<em>Internet Control Message Protocol</em>)</b>: proveer notificaciones y diagnóstico de errores cuando se malogran los datagramas IP.
-            .tarjeta.color-acento-botones.p-3(x="55.2%" y="65.5%" numero="")
+            .tarjeta.color-acento-botones.p-3(x="55.2%" y="70%" numero="")
               p.mb-0 <b>ARP (<em>Address Resolution Protocol</em>)</b>: asiste al protocolo IP a guiar los datos solventando la dirección <em>hardware</em> o <em>MAC</em>.
-            .tarjeta.color-acento-botones.p-3(x="68.5%" y="65.5%" numero="")
+            .tarjeta.color-acento-botones.p-3(x="68.5%" y="70%" numero="")
               p.mb-0 <b>RARP (<em>Reverse Address Resolution Protocol</em>)</b>: igual que el ARP pero al revés, o sea, dada la MAC te regresa la IP.
-            .tarjeta.color-acento-botones.p-3(x="82%" y="65.5%" numero="")
+            .tarjeta.color-acento-botones.p-3(x="82%" y="70%" numero="")
               p.mb-0 <b>NAT (<em>Network Address Translation</em>)</b>: transforma la dirección IP privada a una pública.
-            .tarjeta.color-acento-botones.p-3(x="94.7%" y="65.5%" numero="")
-              p.mb-0 <b>RIP (<em>Routing Information Protocol</em>)</b>: es manejado por los routers para intercambiar información de las diferentes redes y ordenar con mayor eficacia los paquetes.
-            .tarjeta.color-acento-botones.p-3(x="12.7%" y="91%" numero="")
+            .tarjeta.color-acento-botones.p-3(x="94.7%" y="70%" numero="")
+              p.mb-0 <b>RIP (<em>Routing Information Protocol</em>)</b>: es manejado por los <em>routers</em> para intercambiar información de las diferentes redes y ordenar con mayor eficacia los paquetes.
+
+            .tarjeta.color-acento-botones.p-3(x="12.7%" y="96.5%" numero="")
+              p.mb-1 <b>Capa física o de acceso a la red</b>
               p.mb-0 Está relacionada con componentes <em>hardware</em> que serán utilizados para la red y cómo enrutar los datos.
-            .tarjeta.color-acento-botones.p-3(x="29.2%" y="87.8%" numero="")
-              p.mb-0 Su función es gestionar la velocidad de transmisión de datos.
-            .tarjeta.color-acento-botones.p-3(x="42.5%" y="87.8%" numero="")
-              p.mb-0 Vincula el mensaje para conectarlo con la capa de red.
-            .tarjeta.color-acento-botones.p-3(x="63.5%" y="87.8%" numero="")
-              p.mb-0 Establece la topografía de la web por medio de <em>routers, hubs y switches</em>.
+            .tarjeta.color-acento-botones.p-3(x="29.2%" y="93.6%" numero="")
+              p.mb-0 <b>CSMA/CD (<em>Carrier sense multiple access / Collision detection</em>)</b>: Su función es gestionar la velocidad de transmisión de datos.
+            .tarjeta.color-acento-botones.p-3(x="42.5%" y="93.6%" numero="")
+              p.mb-0 <b><em>Ethernet</em></b>: Vincula el mensaje para conectarlo con la capa de red.
+            .tarjeta.color-acento-botones.p-3(x="63.5%" y="93.6%" numero="")
+              p.mb-0 <b>Protocolos de la capa física</b>: Establece la topografía de la web por medio de <em>routers, hubs</em> y <em>switches</em>.
             
           
     Separador
@@ -290,11 +296,11 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")      
       .col-lg-7.col-12
-        p El <em>Internet</em> Protocol Version 4 (IPv4), conocido como el sistema de identificación que usa <em>Internet</em> para enviar información entre los dispositivos, maneja direcciones de 32 bits con hasta 12 caracteres, en cuatro bloques de 3 caracteres, cada bloque. El <em>DNS</em> los convierte en nombres de dominio como 1and1.es. ajustando todos los dígitos.
+        p El <em>Internet Protocol</em> version 4 (IPv4), conocido como el sistema de identificación que usa internet para enviar información entre los dispositivos, maneja direcciones de 32 bits con hasta 12 caracteres, en cuatro bloques de 3 caracteres cada uno, por ejemplo 232.337.134.121. Luego, el DNS traduce esos datos en nombres de dominio como "ejemplo.es", ajustando todos los dígitos.
         .cajon.color-primario.p-4.mb-lg-0.mb-3
-          p.mb-0 Por otra parte, está el <em>Internet</em> Protocol Version 6 (IPv6); su espacio de direcciones es de 128-bits. Este protocolo aumenta el tamaño de la dirección IP de 32 bits a 128 bits para así resistir más niveles en la jerarquía de direccionamiento y un número mayor de nodos direccionables. El diseño del protocolo suma muchos beneficios en seguridad: una mayor capacidad de transmisión, manejo de calidad de servicio y mejora la facilidad de administración.
+          p.mb-0 Por otra parte, está el <em>Internet Protocol</em> version 6 (IPv6); su espacio de direcciones es de 128-bits. Este protocolo aumenta el tamaño de la dirección IP de 32 bits a 128 bits para así resistir más niveles en la jerarquía de direccionamiento y un número mayor de nodos direccionables. El diseño del protocolo suma muchos beneficios en seguridad: una mayor capacidad de transmisión, manejo de calidad de servicio y mejora la facilidad de administración.
       .col-lg-5.col-8
-        img.mb-0(src="@/assets/curso/tema1/img19.png")
+        img.mb-0(alt="" src="@/assets/curso/tema1/img19.png")
 
     p.mb-5 Los siguientes puntos son los beneficios que representa un proceso de transición de IPv4 al IPv6, que es importante tenerlos presentes, al momento de adoptar el nuevo protocolo:
     
@@ -302,82 +308,82 @@
       .col-lg-10.col-12
         AcordionA.mb-0(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row.justify-content-center(titulo="Más usuarios y mejores servicios")
-            .col-lg-1.col-5.p-0
-              img.mb-lg-0.mb-3(style="min-width:80px !important; max-width:80px !important" src="@/assets/curso/tema1/img20.svg")
-            .col-lg-10.col-12
-              p.mb-0 Podrá tener un mayor número de equipos conectados a la red.  Así mismo, tendrá un proceso técnicamente transparente para los usuarios de la red de comunicaciones y sus distintos servicios. 
+            .col-lg-2
+              img.m-auto(style="min-width:80px !important; max-width:80px !important" alt="" src="@/assets/curso/tema1/img20.svg")
+            .col
+              p.mb-0.mt-2.mt-lg-0 Podrá tener un mayor número de equipos conectados a la red.  Así mismo, tendrá un proceso técnicamente transparente para los usuarios de la red de comunicaciones y sus distintos servicios. 
 
           .row.justify-content-center(titulo="Mayor movilidad, mejor seguridad")
-            .col-lg-1.col-5.p-0
-              img.mb-lg-0.mb-3(style="min-width:80px !important; max-width:80px !important" src="@/assets/curso/tema1/img21.svg")
-            .col-lg-10.col-12
-              p.mb-0 Tendrá la posibilidad de incrementar la movilidad de los usuarios al tener un número mayor de direcciones IP para la conectividad. En el mismo sentido, mejorará la seguridad a nivel de direccionamiento IP de la red, en virtud de la arquitectura del nuevo protocolo y sus servicios.
+            .col-lg-2
+              img.m-auto(style="min-width:80px !important; max-width:80px !important" alt="" src="@/assets/curso/tema1/img21.svg")
+            .col
+              p.mb-0.mt-2.mt-lg-0 Tendrá la posibilidad de incrementar la movilidad de los usuarios al tener un número mayor de direcciones IP para la conectividad. En el mismo sentido, mejorará la seguridad a nivel de direccionamiento IP de la red, en virtud de la arquitectura del nuevo protocolo y sus servicios.
 
           .row.justify-content-center(titulo="Reducción de costos y más aplicaciones y servicios")
-            .col-lg-1.col-5.p-0
-              img.mb-lg-0.mb-3(style="min-width:80px !important; max-width:80px !important" src="@/assets/curso/tema1/img22.svg")
-            .col-lg-10.col-12
-              p.mb-0 Podrá reducir los costos al implementar la solución de IPv6; en este sentido los costos podrían ser mayores de no implementarse el nuevo protocolo. Además, se facilitará la aparición de nuevas aplicaciones y servicios sobre una gran variedad de plataformas.
+            .col-lg-2
+              img.m-auto(style="min-width:80px !important; max-width:80px !important" alt="" src="@/assets/curso/tema1/img22.svg")
+            .col
+              p.mb-0.mt-2.mt-lg-0 Podrá reducir los costos al implementar la solución de IPv6; en este sentido los costos podrían ser mayores de no implementarse el nuevo protocolo. Además, se facilitará la aparición de nuevas aplicaciones y servicios sobre una gran variedad de plataformas.
 
           .row.justify-content-center(titulo="Nuevas tecnologías")
-            .col-lg-1.col-5.p-0
-              img.mb-lg-0.mb-3(style="min-width:80px !important; max-width:80px !important" src="@/assets/curso/tema1/img23.svg")
-            .col-lg-10.col-12
-              p.mb-0 Gran número de direcciones IP para conexiones a <em>Internet</em> con el mundo exterior, facilitando el crecimiento de nuevas tecnologías como el <em><em>internet</em> </em>de las cosas, las ciudades inteligentes, redes de sensores, entre otras. 
+            .col-lg-2
+              img.m-auto(style="min-width:80px !important; max-width:80px !important" alt="" src="@/assets/curso/tema1/img23.svg")
+            .col
+              p.mb-0.mt-2.mt-lg-0 Gran número de direcciones IP para conexiones a internet con el mundo exterior, facilitando el crecimiento de nuevas tecnologías como el internet de las cosas, las ciudades inteligentes, redes de sensores, entre otras. 
 
           .row.justify-content-center(titulo="Amparo tecnológico de los PSI")
-            .col-lg-1.col-5.p-0
-              img.mb-lg-0.mb-3(style="min-width:80px !important; max-width:80px !important" src="@/assets/curso/tema1/img24.svg")
-            .col-lg-10.col-12
-              p.mb-0 Los Proveedores de Servicio de <em>Internet</em>, PSI, tendrán que preparar el proceso de transición de IPv6, mediante la creación de un <em>backbone</em> nativo de IPv6 que apoye a los clientes en el enrutamiento de las nuevas direcciones IPv6, a fin de garantizar la publicación de servicios y aplicaciones que se consideren pertinentes hacia <em>internet</em>.
+            .col-lg-2
+              img.m-auto(style="min-width:80px !important; max-width:80px !important" alt="" src="@/assets/curso/tema1/img24.svg")
+            .col
+              p.mb-0.mt-2.mt-lg-0 Los Proveedores de Servicio de internet, PSI, tendrán que preparar el proceso de transición de IPv6, mediante la creación de un <em>backbone</em> nativo de IPv6 que apoye a los clientes en el enrutamiento de las nuevas direcciones IPv6, a fin de garantizar la publicación de servicios y aplicaciones que se consideren pertinentes hacia internet.
 
           .row.justify-content-center(titulo="Proveedores de servicio a cargo")
-            .col-lg-1.col-5.p-0
-              img.mb-lg-0.mb-3(style="min-width:80px !important; max-width:80px !important" src="@/assets/curso/tema1/img25.svg")
-            .col-lg-10.col-12
-              p.mb-0 La implementación de IPv6 será un proceso gradual, cuya responsabilidad no será del gobierno sino del proveedor del servicio de <em><em>internet</em> </em>directamente y no deberá generar costos directos.
+            .col-lg-2
+              img.m-auto(style="min-width:80px !important; max-width:80px !important" alt="" src="@/assets/curso/tema1/img25.svg")
+            .col
+              p.mb-0.mt-2.mt-lg-0 La implementación de IPv6 será un proceso gradual, cuya responsabilidad no será del gobierno sino del proveedor del servicio de internet directamente y no deberá generar costos directos.
     Separador
     #t_1_7.titulo-segundo.color-acento-contenido
       h2 1.7  Enrutamiento IP
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
       .col-lg-5.col-8
-        img.mb-lg-0.mb-3(src="@/assets/curso/tema1/img26.png")
+        img.mb-lg-0.mb-3(alt="" src="@/assets/curso/tema1/img26.png")
       .col-lg-7.col-12
         p <b>Acceder a la comunicación e interconectividad de redes, a través de paquetes IP enviados desde un origen a un destino, aprovechando la tecnología con la que cuenta cada <em>router</em>, permite diversas configuraciones y protocolos. </b>
         p Algunas de sus utilidades son, entre otras, poder hallar redes remotas, conservar la información de enrutamiento actualizada, elegir el mejor camino hacia las redes de destino, poder encontrar un mejor camino nuevo si la ruta actual deja de estar disponible.
         p.mb-0 Descubra los tipos de enrutamiento IP que se presentan en el siguiente recurso. Conozca, además, sus ventajas y desventajas. Le sugerimos tomar nota atenta de los aspectos más importantes. ¡Adelante!
     
     .row.justify-content-center.mb-0
-      .col-lg-4.col-12.d-flex
-        .py-5.p-3.w-100.mb-lg-0.mb-3(style="border-radius: 15px; background-color: #ffe5cf")
+      .col-lg-4.col-12.d-flex(@click="modal1 = true")
+        .py-5.p-3.w-100.mb-lg-0.mb-3.CPointer(style="border-radius: 15px; background-color: #ffe5cf")
           .p-0.d-flex.justify-content-center.mb-4
-            img.mb-lg-0.mb-3( style="width: 181px" src="@/assets/curso/tema1/img27.svg")
+            img.mb-lg-0.mb-3( style="width: 181px" alt="" src="@/assets/curso/tema1/img27.svg")
           .p-0.d-flex.justify-content-center.mb-3
             h4.p-1.text-center.mb-0(style="width: 198px; background-color:white; border-radius:19px") Estático
           .p-0.d-flex.justify-content-center
-            a.d-flex.indicador__container(@click="modal1 = true")
+            a.d-flex.indicador__container
               p.mb-0 Leer más
-              img.mb-0.mx-2( style="width: 13px" src="@/assets/curso/tema1/img29.svg")
+              img.mb-0.mx-2( style="width: 13px" alt="" src="@/assets/curso/tema1/img29.svg")
               .indicador--click(v-if="mostrarIndicador")
 
-      .col-lg-4.col-12.d-flex
-        .py-5.p-3.w-100(style="border-radius: 15px; background-color: #0c5b7c")
+      .col-lg-4.col-12.d-flex(@click="modal2 = true")
+        .py-5.p-3.w-100.CPointer(style="border-radius: 15px; background-color: #0c5b7c")
           .p-0.d-flex.justify-content-center.mb-4
-            img.mb-lg-0.mb-3( style="width: 181px" src="@/assets/curso/tema1/img28.svg")
+            img.mb-lg-0.mb-3( style="width: 181px" alt="" src="@/assets/curso/tema1/img28.svg")
           .p-0.d-flex.justify-content-center.mb-3
             h4.p-1.text-center.mb-0(style="width: 198px; background-color:white; border-radius:19px") Estático
           .p-0.d-flex.justify-content-center
-            a.d-flex.indicador__container(@click="modal2 = true")
+            a.d-flex.indicador__container
               p.mb-0.text-white Leer más
-              img.mb-0.mx-2( style="width: 13px" src="@/assets/curso/tema1/img30.svg")
+              img.mb-0.mx-2( style="width: 13px" alt="" src="@/assets/curso/tema1/img30.svg")
               .indicador--click(v-if="mostrarIndicador")
 
 
     ModalA(:abrir-modal.sync="modal1")
       .d-flex
         div.p-2
-          img.mb-0( style="width: 80px; min-width: 80px; max-width: 80px" src="@/assets/curso/tema1/img31.svg")
+          img.mb-0( style="width: 80px; min-width: 80px; max-width: 80px" alt="" src="@/assets/curso/tema1/img31.svg")
         div.p-2
           h4 Estático
           p.mb-4 Acceden a la configuración manual de las tablas de enrutamiento, las tablas no serán modificadas en forma dinámica, no tiene flexibilidad frente a fallas de los enlaces, no son fundamentales las cargas y procesos asociados a un protocolo de descubrimiento de rutas, se establecen fácilmente barreras de seguridad.
@@ -416,10 +422,10 @@
     ModalA(:abrir-modal.sync="modal2")
       .d-flex
         div.p-2
-          img.mb-0( style="width: 80px; min-width: 80px; max-width: 80px" src="@/assets/curso/tema1/img32.svg")
+          img.mb-0( style="width: 80px; min-width: 80px; max-width: 80px" alt="" src="@/assets/curso/tema1/img32.svg")
         div.p-2
           h4 Dinámico
-          p.mb-4 Se basa en la comunicación, por medio de broadcasts, entre los routers. Para hallar las mejores rutas los routers utilizan el concepto de métrica. No se requiere mantener manualmente las tablas de rutas.
+          p.mb-4 Se basa en la comunicación, por medio de broadcasts, entre los <em>routers</em>. Para hallar las mejores rutas los <em>routers</em> utilizan el concepto de métrica y no se requiere mantener manualmente las tablas de rutas.
           .tabla-b.color-acento-contenido
             table.w-100
               tr

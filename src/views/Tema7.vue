@@ -11,31 +11,31 @@
 
     .row.justify-content-center.align-items-center(data-aos="fade-right") 
       .col-lg-5.col-8
-        img.mb-lg-0.mb-3(src="@/assets/curso/tema7/img01.png")
+        img.mb-lg-0.mb-3(alt="" src="@/assets/curso/tema7/img01.png")
       .col-lg-7.col-12
         p.mb-4 Los activos de información cuentan con un sistema de clasificación, el cual se enfoca en las propiedades de confidencialidad, integridad y disponibilidad, como elementos para el tratamiento de los datos. Además, evalúa el impacto que tendría, en caso de no cumplir alguno de estos fundamentos.         
         .cajon.color-primario.p-4.mb-lg-0.mb-3
-          p.mb-0 Los activos de información se clasifican, generalmente, en activos de prioridad alta, media y baja; de esta manera se establece cuáles se deben tratar con prelación.
+          p.mb-0 Los activos de información se clasifican, generalmente, en <b>activos de prioridad alta, media y baja</b>; de esta manera se establece cuáles se deben tratar con prelación.
           
 
     .row.justify-content-center(data-aos="fade-left") 
       .col-lg-4.col-12.d-flex.mb-lg-0.mb-3
         .tarjeta-avatar.mb-0
-          img(src="@/assets/curso/tema7/img02.svg")       
+          img(alt="" src="@/assets/curso/tema7/img02.svg")       
           .tarjeta.color-secundario(style="background: #ffe5cf")
             .p-4.py-5
               h4.text-center Baja
               p.mb-0.text-center Se considera baja cuando la clasificación de la información en todas sus propiedades es baja. 
       .col-lg-4.col-12.d-flex.mb-lg-0.mb-3
         .tarjeta-avatar.mb-0
-          img(src="@/assets/curso/tema7/img03.svg")       
+          img(alt="" src="@/assets/curso/tema7/img03.svg")       
           .tarjeta.color-secundario(style="background: #ffb476")
             .p-4.py-5
               h4.text-center Media
               p.mb-0.text-center Se ubica en esta posición si la clasificación de la información de una de las propiedades es alta o nivel medio.
       .col-lg-4.col-12.d-flex
         .tarjeta-avatar
-          img(src="@/assets/curso/tema7/img04.svg")       
+          img(alt="" src="@/assets/curso/tema7/img04.svg")       
           .tarjeta.color-secundario(style="background: #ff6148")
             .p-4.py-5
               h4.text-center Alta
@@ -57,7 +57,7 @@
                 .d-block.d-lg-none
                   br
               .col-lg-2.col-8.px-5
-                img.mb-0(src="@/assets/curso/tema7/img05.svg")
+                img.mb-0(alt="" src="@/assets/curso/tema7/img05.svg")
 
     .fondo1.py-lg-5.p-3(data-aos="fade-right")
         .row.justify-content-center.align-items-center
@@ -65,15 +65,19 @@
             ImagenInfografica.color-acento-botones.mb-0.d-block
               template(v-slot:imagen)
                 figure
-                  img.mb-0(src="@/assets/curso/tema7/img06.svg")           
+                  img.mb-0(alt="" src="@/assets/curso/tema7/img06.svg")           
 
               .tarjeta.color-secundario.p-3(x="9.5%" y="31%" numero=" " style="background-color: #fffad1")
+                h4 Subestado de autentificación
                 p.mb-0 Presenta y conoce la autenticidad de los diferentes activos de información.
               .tarjeta.color-secundario.p-3(x="36%" y="45%" numero=" " style="background-color: #fffad1")
+                h4 Subestado de confidencialidad
                 p.mb-0 Evitar que se divague, sin autorización, los activos de información.
               .tarjeta.color-secundario.p-3(x="64%" y="31%" numero=" " style="background-color: #fffad1")
+                h4 Subestado integridad
                 p.mb-0 Muestra la protección sobre la modificación o destrucción, que no esté autorizada según los activos del dominio.
               .tarjeta.color-secundario.p-3(x="90%" y="45%" numero=" " style="background-color: #fffad1")
+                h4 Subestado disponibilidad
                 p.mb-0 Protege contra el acceso no autorizado a los activos de información.
 
     Separador
@@ -82,18 +86,18 @@
 
     p Se relacionan cinco grandes tipos de activos de información, de la siguiente manera:
     TabsC.color-acento-contenido(data-aos="fade-left")
-      .py-3.py-md-4(titulo="Ataques innovadores")
+      .py-3.py-md-4(titulo="Seguridad")
         .row.justify-content-center
           .col-lg-5.col-8
-            img.mb-lg-0.mb-3(src="@/assets/curso/tema7/img07.png")
+            img.mb-lg-0.mb-3(alt="" src="@/assets/curso/tema7/img07.png")
           .col-lg-6.col-12
             br
             h4.mb-4 Seguridad
-            p.mb-0 Todo el ambiente del Sistema de Gestión de Seguridad de la Información según la <em>ISO</em> 27001, que contenga a los activos y que es necesario que garanticen los diferentes niveles de seguridad.
+            p.mb-0 Todo el ambiente del Sistema de Gestión de Seguridad de la Información según la ISO 27001, que contenga a los activos y que es necesario que garanticen los diferentes niveles de seguridad.
       .py-3.py-md-4(titulo="El sistema mismo")
         .row.justify-content-center
           .col-lg-5.col-8
-            img.mb-lg-0.mb-3(src="@/assets/curso/tema7/img08.png")
+            img.mb-lg-0.mb-3(alt="" src="@/assets/curso/tema7/img08.png")
           .col-lg-6.col-12
             br
             h4.mb-4 El sistema mismo
@@ -101,7 +105,7 @@
       .py-3.py-md-4(titulo="Información generada")
         .row.justify-content-center
           .col-lg-5.col-8
-            img.mb-lg-0.mb-3(src="@/assets/curso/tema7/img09.png")
+            img.mb-lg-0.mb-3(alt="" src="@/assets/curso/tema7/img09.png")
           .col-lg-6.col-12
             br
             h4.mb-4 Información generada
@@ -109,7 +113,7 @@
       .py-3.py-md-4(titulo="Funciones empresariales u organizacionales")
         .row.justify-content-center
           .col-lg-5.col-8
-            img.mb-lg-0.mb-3(src="@/assets/curso/tema7/img10.png")
+            img.mb-lg-0.mb-3(alt="" src="@/assets/curso/tema7/img10.png")
           .col-lg-6.col-12
             br
             h4.mb-4 Funciones empresariales u organizacionales
@@ -117,7 +121,7 @@
       .py-3.py-md-4(titulo="Métodos o sistemas de valoración de riesgos")
         .row.justify-content-center
           .col-lg-5.col-8
-            img.mb-lg-0.mb-3(src="@/assets/curso/tema7/img11.png")
+            img.mb-lg-0.mb-3(alt="" src="@/assets/curso/tema7/img11.png")
           .col-lg-6.col-12
             br
             h4.mb-4 Métodos o sistemas de valoración de riesgos
@@ -140,8 +144,8 @@
     .row.justify-content-center(data-aos="fade-left")
       .col-lg-3.col-12.d-flex
         .px-lg-4.py-lg-5.px-3.mb-lg-0.mb-3.w-100.tarjeta1.p-3(style="background-color:#ffe5cf; border-radius:15px")
-          img.mb-5(style="width: 75px" src="@/assets/curso/tema7/img13.svg")
-          h4.mb-4 Subestado confidencialidad
+          img.mb-5(style="width: 75px" alt="" src="@/assets/curso/tema7/img13.svg")
+          h4.mb-4 Subestado autentificación
           ul.lista-ul--color.mb-0
             li.mb-0
               i.fas.fa-check(style="color:#083142")
@@ -157,8 +161,8 @@
               p.mb-0 Crítica
       .col-lg-3.col-12.d-flex
         .px-lg-4.py-lg-5.px-3.mb-lg-0.mb-3.w-100.tarjeta1.p-3(style="background-color:#ffe5cf; border-radius:15px")
-          img.mb-5(style="width: 75px" src="@/assets/curso/tema7/img14.svg")
-          h4.mb-4 Subestado integridad
+          img.mb-5(style="width: 75px" alt="" src="@/assets/curso/tema7/img14.svg")
+          h4.mb-4 Subestado confidencialidad
           ul.lista-ul--color.mb-0
             li.mb-0
               i.fas.fa-check(style="color:#083142")
@@ -174,8 +178,8 @@
               p.mb-0 Confidencial
       .col-lg-3.col-12.d-flex
         .px-lg-4.py-lg-5.px-3.mb-lg-0.mb-3.w-100.tarjeta1.p-3(style="background-color:#ffe5cf; border-radius:15px")
-          img.mb-5(style="width: 75px" src="@/assets/curso/tema7/img15.svg")
-          h4.mb-4 Subestado disponibilidad
+          img.mb-5(style="width: 75px" alt="" src="@/assets/curso/tema7/img15.svg")
+          h4.mb-4 Subestado integridad
           ul.lista-ul--color.mb-0
             li.mb-0
               i.fas.fa-check(style="color:#083142")
@@ -191,8 +195,8 @@
               p.mb-0 Crítica
       .col-lg-3.col-12.d-flex
         .px-lg-4.py-lg-5.px-3.w-100.tarjeta1.p-3(style="background-color:#ffe5cf; border-radius:15px")
-          img.mb-5(style="width: 75px" src="@/assets/curso/tema7/img16.svg")
-          h4.mb-4 Subestado autentificación
+          img.mb-5(style="width: 75px" alt="" src="@/assets/curso/tema7/img16.svg")
+          h4.mb-4 Subestado disponibilidad
           ul.lista-ul--color.mb-0
             li.mb-0
               i.fas.fa-check(style="color:#083142")

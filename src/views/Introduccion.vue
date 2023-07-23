@@ -11,7 +11,7 @@
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
       .col-lg-5.col-8
-        img.mb-lg-0.mb-3(src="@/assets/curso/tema1/img01.png")
+        img.mb-lg-0.mb-3(src="@/assets/curso/tema1/img01.png" alt="")
       .col-lg-7.col-12
         p En este componente se abordarán los conceptos y fundamentos de las tecnologías de información y la seguridad de la información, reconociendo la normatividad, marcos y estándares para una adecuada gestión de riesgos de ciberseguridad y la tipificación de delitos informáticos en el contexto colombiano. 
         .cajon.color-secundario.p-4.mb-4
@@ -19,8 +19,10 @@
     
 
     figure(data-aos="fade-right")
-      .video      
+      .video.mb-1       
         iframe(width="1280" height="720" src="https://www.youtube.com/embed/URNCgT2EtH0" title="Análisis y valoración de riesgos de ciberseguridad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Análisis y valoración de riesgos de ciberseguridad
+
 </template>
 
 <script>
